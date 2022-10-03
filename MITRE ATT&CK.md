@@ -62,42 +62,42 @@
 ---
 2.Resource Development 資源開發戰術
 ===
-* Acquire Infrastructure
-  * Domains
-  * DNS Server
-  * Virtual Private Server
-  * Server
-  * Botnet
-  * Web Services
-* Compromise Accounts
-  * Social Media Accounts
-  * Email Accounts
-* Compromise Infrastructure
-  * Domains
-  * DNS Server
-  * Virtual Private Server
-  * Server
-  * Botnet
-  * Web Services
-* Develop Capabilities
-  * Malware
-  * Code Signing Certificates
-  * Digital Certificates
-  * Exploits 
-* Establish Accounts
-  * Social Media Accounts
-  * Email Accounts
-* Obtain Capabilities
-  * Malware
-  * Tool
-  * Code Signing Certificates
-  * Digital Certificates
-  * Exploits
-  * Vulnerabilities
-* Stage Capabilities
-  * Upload Malware
-  * Upload Tool
-  * Install Digital Certificate
-  * Drive-by Target
-  * Link Target
+* Acquire Infrastructure 獲取基礎設施
+  * Domains 網域
+  * DNS Server 網域名稱系統伺服器
+  * Virtual Private Server 虛擬私人伺服器
+  * Server 伺服器
+  * Botnet 殭屍網路
+  * Web Services Web服務
+* Compromise Accounts 入侵帳戶
+  * Social Media Accounts 社交媒體帳戶
+  * Email Accounts 電子信箱帳戶
+* Compromise Infrastructure 入侵基礎架構
+  * Domains 網域
+  * DNS Server 網域名稱系統伺服器
+  * Virtual Private Server 虛擬私人伺服器
+  * Server 伺服器
+  * Botnet 殭屍網路
+  * Web Services Web服務
+* Develop Capabilities 開發能力
+  * Malware 惡意軟體 
+  * Code Signing Certificates 程式碼數位憑証簽章
+  * Digital Certificates 數位憑證
+  * Exploits 漏洞利用
+* Establish Accounts 建立帳戶
+  * Social Media Accounts 社交媒體帳戶
+  * Email Accounts 電子信箱帳戶
+* Obtain Capabilities 獲取能力
+  * Malware 惡意軟體
+  * Tool 工具 
+  * Code Signing Certificates 程式碼數位憑証簽章
+  * Digital Certificates 數位憑證
+  * Exploits 漏洞利用
+  * Vulnerabilities 漏洞
+* Stage Capabilities 強化能力
+  * Upload Malware 上傳惡意軟體
+  * Upload Tool 上傳工具
+  * Install Digital Certificate 安裝數位憑証
+  * Drive-by Target 目標驅動
+  * Link Target 目標連結
 ---
