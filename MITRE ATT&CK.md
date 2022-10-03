@@ -103,13 +103,23 @@
 ---
 3.Initial Access 初期存取
 ===
-* Drive-by Compromise
+* Drive-by Compromise 
 * Exploit Public-Facing Application
 * External Remote Services
 * Hardware Additions
 * Phishing
+  * Spearphishing Attachment
+  * Spearphishing Link
+  * Spearphishing via Service 
 * Replication Through Removable Media
 * Supply Chain Compromise
+  * Compromise Software Dependencies and Development Tools 
+  * Compromise Software Supply Chain
+  * 	Compromise Hardware Supply Chain
 * Trusted Relationship
 * Valid Accounts
+  * Default Accounts
+  * Domain Accounts
+  * Local Accounts
+  * Cloud Accounts 
 
