@@ -62,4 +62,42 @@
 ---
 2.Resource Development 資源開發戰術
 ===
-
+* Acquire Infrastructure
+ * Domains
+ * DNS Server
+ * Virtual Private Server
+ * Server
+ * Botnet
+ * Web Services
+* Compromise Accounts
+ * Social Media Accounts
+ * Email Accounts
+* Compromise Infrastructure
+ * Domains
+ * DNS Server
+ * Virtual Private Server
+ * Server
+ * Botnet
+ * Web Services
+* Develop Capabilities
+ * Malware
+ * Code Signing Certificates
+ * Digital Certificates
+ * Exploits 
+* Establish Accounts
+ * Social Media Accounts
+ * Email Accounts
+* Obtain Capabilities
+ * Malware
+ * Tool
+ * Code Signing Certificates
+ * Digital Certificates
+ * Exploits
+ * Vulnerabilities
+* Stage Capabilities
+ * Upload Malware
+ * Upload Tool
+ * 	Install Digital Certificate
+ * 	Drive-by Target
+ * 	Link Target
+---
