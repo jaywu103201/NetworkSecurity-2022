@@ -17,3 +17,45 @@
 ---
 1.Reconnaissance 偵查
 ===
+* Active Scanning
+  * Scanning IP Blocks
+  * Vulnerability Scanning
+  * Wordlist Scanning
+* Gather Victim Host Information
+  * Hardware
+  * Software
+  * Firmware
+  * Client Configurations
+* Gather Victim Identity Information
+  * Credentials
+  * Email Addresses
+  * Employee Names
+* Gather Victim Network Information
+  * Domain Properties
+  * DNS
+  * Network Trust Dependencies
+  * Network Topology
+  * IP Addresses
+  * Network Security Appliances 
+* Gather Victim Org Information
+  * Determine Physical Locations
+  * Business Relationships
+  * Identify Business Tempo
+  * Identify Roles 
+* Phishing for Information
+  * Spearphishing Service
+  * Spearphishing Attachment
+  * Spearphishing Link
+* Search Closed Sources
+  * Threat Intel Vendors
+  * Purchase Technical Data 
+* Search Open Technical Databases
+  * DNS/Passive DNS
+  * WHOIS
+  * Digital Certificates
+  * CDNs
+  * Scan Databases 
+* Search Open Websites/Domains
+  * Social Media
+  * Search Engines 
+* Search Victim-Owned Websites
