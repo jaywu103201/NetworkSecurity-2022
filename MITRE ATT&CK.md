@@ -101,3 +101,15 @@
   * Drive-by Target 目標驅動
   * Link Target 目標連結
 ---
+3.Initial Access 初期存取
+===
+* Drive-by Compromise
+* Exploit Public-Facing Application
+* External Remote Services
+* Hardware Additions
+* Phishing
+* Replication Through Removable Media
+* Supply Chain Compromise
+* Trusted Relationship
+* Valid Accounts
+
