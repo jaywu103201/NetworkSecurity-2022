@@ -69,10 +69,10 @@
   * Server 伺服器
   * Botnet 殭屍網路
   * Web Services Web服務
-* Compromise Accounts 入侵帳戶
+* Compromise Accounts 竄改帳戶
   * Social Media Accounts 社交媒體帳戶
   * Email Accounts 電子信箱帳戶
-* Compromise Infrastructure 入侵基礎架構
+* Compromise Infrastructure 竄改基礎架構
   * Domains 網域
   * DNS Server 網域名稱系統伺服器
   * Virtual Private Server 虛擬私人伺服器
@@ -98,28 +98,28 @@
   * Upload Malware 上傳惡意軟體
   * Upload Tool 上傳工具
   * Install Digital Certificate 安裝數位憑証
-  * Drive-by Target 目標驅動
-  * Link Target 目標連結
+  * Drive-by Target 中間目標
+  * Link Target 連結目標
 ---
 3.Initial Access 初期存取
 ===
-* Drive-by Compromise 
-* Exploit Public-Facing Application
-* External Remote Services
-* Hardware Additions
-* Phishing
-  * Spearphishing Attachment
-  * Spearphishing Link
-  * Spearphishing via Service 
-* Replication Through Removable Media
-* Supply Chain Compromise
-  * Compromise Software Dependencies and Development Tools 
-  * Compromise Software Supply Chain
-  * Compromise Hardware Supply Chain
-* Trusted Relationship
-* Valid Accounts
-  * Default Accounts
-  * Domain Accounts
-  * Local Accounts
-  * Cloud Accounts 
-
+* Drive-by Compromise 偷渡式劫持 [水坑攻擊](https://blog.trendmicro.com.tw/?p=4350)
+* Exploit Public-Facing Application 利用公開應用程式
+* External Remote Services 外部遠端服務
+* Hardware Additions 利用硬體入侵
+* Phishing 網路釣魚
+  * Spearphishing Attachment 魚叉式釣魚附件
+  * Spearphishing Link 魚叉式釣魚連結
+  * Spearphishing via Service 透過服務魚叉式釣魚
+* Replication Through Removable Media 使用移動裝置複製
+* Supply Chain Compromise 供應鏈惡意竄改
+  * Compromise Software Dependencies and Development Tools  竄改軟體相依性與開發工具
+  * Compromise Software Supply Chain 軟體供應鏈惡意竄改
+  * Compromise Hardware Supply Chain 硬體供應鏈惡意竄改
+* Trusted Relationship 利用信任關係
+* Valid Accounts 有效的帳戶
+  * Default Accounts 默認帳號
+  * Domain Accounts 網域帳號
+  * Local Accounts 本地帳號
+  * Cloud Accounts 雲端帳號
+---
