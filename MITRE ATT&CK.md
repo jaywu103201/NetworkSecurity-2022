@@ -115,7 +115,7 @@
 * Supply Chain Compromise
   * Compromise Software Dependencies and Development Tools 
   * Compromise Software Supply Chain
-  * 	Compromise Hardware Supply Chain
+  * Compromise Hardware Supply Chain
 * Trusted Relationship
 * Valid Accounts
   * Default Accounts
