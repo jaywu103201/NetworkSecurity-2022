@@ -97,7 +97,7 @@
 * Stage Capabilities
   * Upload Malware
   * Upload Tool
-  * 	Install Digital Certificate
-  * 	Drive-by Target
-  * 	Link Target
+  * Install Digital Certificate
+  * Drive-by Target
+  * Link Target
 ---
