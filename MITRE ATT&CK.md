@@ -1,6 +1,4 @@
-MITRE_Attack
-===
-https://attack.mitre.org/
+[MITRE_Attack](https://attack.mitre.org/)
 ===
 ```
 
