@@ -17,45 +17,45 @@
 ---
 1.Reconnaissance 偵查
 ===
-* Active Scanning
-  * Scanning IP Blocks
-  * Vulnerability Scanning
-  * Wordlist Scanning
-* Gather Victim Host Information
-  * Hardware
-  * Software
-  * Firmware
-  * Client Configurations
-* Gather Victim Identity Information
-  * Credentials
-  * Email Addresses
-  * Employee Names
-* Gather Victim Network Information
-  * Domain Properties
-  * DNS
-  * Network Trust Dependencies
-  * Network Topology
-  * IP Addresses
-  * Network Security Appliances 
-* Gather Victim Org Information
-  * Determine Physical Locations
-  * Business Relationships
-  * Identify Business Tempo
-  * Identify Roles 
-* Phishing for Information
-  * Spearphishing Service
-  * Spearphishing Attachment
-  * Spearphishing Link
-* Search Closed Sources
-  * Threat Intel Vendors
-  * Purchase Technical Data 
-* Search Open Technical Databases
-  * DNS/Passive DNS
-  * WHOIS
-  * Digital Certificates
-  * CDNs
-  * Scan Databases 
-* Search Open Websites/Domains
-  * Social Media
-  * Search Engines 
-* Search Victim-Owned Websites
+* Active Scanning 主動掃描
+  * Scanning IP Blocks 掃描IP
+  * Vulnerability Scanning 漏洞掃描
+  * Wordlist Scanning 字典掃描
+* Gather Victim Host Information 收集受害者主機資訊
+  * Hardware 硬體
+  * Software 軟體
+  * Firmware 韌體
+  * Client Configurations 客戶端配置
+* Gather Victim Identity Information 收集受害者身分資訊
+  * Credentials 憑證
+  * Email Addresses 電子郵件地址
+  * Employee Names 員工姓名 
+* Gather Victim Network Information 收集受害者網路資訊
+  * Domain Properties 網域屬性 
+  * DNS 網域名稱系統
+  * Network Trust Dependencies 網路信任依賴關係
+  * Network Topology 網路拓撲
+  * IP Addresses IP位置 
+  * Network Security Appliances 網路安全設備
+* Gather Victim Org Information 收集受害者組織訊息
+  * Determine Physical Locations 確定物理位置
+  * Business Relationships 業務關係
+  * Identify Business Tempo 確認業務節奏
+  * Identify Roles 確認角色
+* Phishing for Information 網路釣魚資訊
+  * Spearphishing Service 魚叉式網路釣魚伺服器
+  * Spearphishing Attachment 魚叉式網路釣魚附件
+  * Spearphishing Link 魚叉式網路釣魚連結
+* Search Closed Sources 搜尋專有軟體
+  * Threat Intel Vendors 威脅情資供應商
+  * Purchase Technical Data 採購技術資料
+* Search Open Technical Databases 搜尋公開技術資料庫
+  * DNS/Passive DNS 網域名稱系統/被動式網域名稱系統
+  * WHOIS 查閱網域/IP位置工具
+  * Digital Certificates 公開金鑰認證/數位憑證
+  * CDNs 內容傳遞網路
+  * Scan Databases 掃描資料庫
+* Search Open Websites/Domains 搜尋公開網站/網域
+  * Social Media 社交媒體
+  * Search Engines 搜尋引擎
+* Search Victim-Owned Websites 搜尋受害者擁有的網站
