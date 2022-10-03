@@ -59,3 +59,7 @@
   * Social Media 社交媒體
   * Search Engines 搜尋引擎
 * Search Victim-Owned Websites 搜尋受害者擁有的網站
+---
+2.Resource Development 資源開發戰術
+===
+
