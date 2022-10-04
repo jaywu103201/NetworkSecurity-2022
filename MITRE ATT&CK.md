@@ -159,3 +159,113 @@
   * Malicious Image 惡意圖片
 * Windows Management Instrumentation Windows管理規範
 ---
+5.Persistence 持續潛伏
+===
+* Account Manipulation
+  * Additional Cloud Credentials
+  * Additional Email Delegate Permissions
+  * Additional Cloud Roles
+  * SSH Authorized Keys
+  * Device Registration
+* BITS Jobs
+* Boot or Logon Autostart Execution
+  * Registry Run Keys / Startup Folder
+  * Authentication Package
+  * Time Providers
+  * Winlogon Helper DLL
+  * Security Support Provider
+  * Kernel Modules and Extensions
+  * Re-opened Applications
+  * LSASS Driver
+  * Shortcut Modification
+  * Port Monitors
+  * Print Processors
+  * XDG Autostart Entries
+  * Active Setup
+  * Login Items	
+* Boot or Logon Initialization Scripts
+  * Logon Script (Windows)
+  * Login Hook
+  * Network Logon Script
+  * RC Scripts
+  * Startup Items
+* Browser Extensions
+* Compromise Client Software Binary
+* Create Account
+  * Local Account
+  * Domain Account
+  * Cloud Account
+* Create or Modify System Process
+  * Launch Agent
+  * Systemd Service
+  * Windows Service
+  * Launch Daemon
+* Event Triggered Execution
+  * Change Default File Association
+  * Screensaver
+  * Windows Management Instrumentation Event Subscription
+  * Unix Shell Configuration Modification
+  * Trap
+  * LC_LOAD_DYLIB Addition
+  * Netsh Helper DLL
+  * Accessibility Features
+  * AppCert DLLs
+  * AppInit DLLs
+  * Application Shimming
+  * Image File Execution Options Injection
+  * PowerShell Profile
+  * Emond
+  * Component Object Model Hijacking
+* External Remote Services
+* Hijack Execution Flow
+  * DLL Search Order Hijacking
+  * DLL Side-Loading
+  *	Dylib Hijacking
+  *	Executable Installer File Permissions Weakness
+  *	Dynamic Linker Hijacking
+  *	Path Interception by PATH Environment Variable
+  *	Path Interception by Search Order Hijacking
+  *	Path Interception by Unquoted Path
+  *	Services File Permissions Weakness
+  *	Services Registry Permissions Weakness
+  *	COR_PROFILER
+  *	KernelCallbackTable
+* Implant Internal Image	
+* Modify Authentication Process
+  * Domain Controller Authentication
+  * Password Filter DLL
+  * Pluggable Authentication Modules
+  * Network Device Authentication
+  * Reversible Encryption
+* Office Application Startup
+  * Office Template Macros
+  * Office Test
+  * Outlook Forms
+  * Outlook Home Page
+  * Outlook Rules
+  * Add-ins
+* Pre-OS Boot
+  * System Firmware
+  * Component Firmware
+  * Bootkit
+  * ROMMONkit
+  * TFTP Boot
+* Scheduled Task/Job
+  * At
+  * Cron
+  * Scheduled Task
+  * Systemd Timers
+  * Container Orchestration Job	
+* Server Software Component
+  * SQL Stored Procedures
+  * Transport Agent
+  * Web Shell
+  * IIS Components
+  * Terminal Services DLL
+* Traffic Signaling
+  * Port Knocking
+* Valid Accounts
+  * Default Accounts
+  * Domain Accounts
+  * Local Accounts
+  * Cloud Accounts
