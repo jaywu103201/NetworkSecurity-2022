@@ -269,3 +269,101 @@
   * Domain Accounts 網域帳號
   * Local Accounts 本地帳號
   * Cloud Accounts 雲端帳號
+---
+6.Privilege Escalation 權限提升
+===
+* Abuse Elevation Control Mechanism
+  * Setuid and Setgid
+  * Bypass User Account Control
+  * Sudo and Sudo Caching
+  * 	Elevated Execution with Prompt
+* Access Token Manipulation
+  * Token Impersonation/Theft
+  * Create Process with Token
+  * Make and Impersonate Token
+  * Parent PID Spoofing
+  * SID-History Injection
+* Boot or Logon Autostart Execution
+  * Registry Run Keys / Startup Folder
+  * Authentication Package
+  * Time Providers
+  * Winlogon Helper DLL
+  * Security Support Provider
+  * Kernel Modules and Extensions
+  * Re-opened Applications
+  * LSASS Driver
+  * Shortcut Modification
+  * Port Monitors
+  * Print Processors
+  * XDG Autostart Entries
+  * Active Setup
+  * Login Items
+* Boot or Logon Initialization Scripts
+  * Logon Script (Windows)
+  * Login Hook
+  * Network Logon Script	
+  * RC Scripts
+  * Startup Items
+* Create or Modify System Process
+  * Launch Agent
+  * Systemd Service
+  * Windows Service
+  * Launch Daemon
+* Domain Policy Modification
+  * Group Policy Modification	
+  * Domain Trust Modification
+* Escape to Host
+* Event Triggered Execution	
+  * Change Default File Association
+  * Screensaver
+  * Windows Management Instrumentation Event Subscription
+  * Unix Shell Configuration Modification
+  * Trap
+  * LC_LOAD_DYLIB Addition
+  * Netsh Helper DLL
+  * Accessibility Features
+  * AppCert DLLs
+  * AppInit DLLs
+  * Application Shimming
+  * Image File Execution Options Injection
+  * PowerShell Profile
+  * Emond
+  * Component Object Model Hijacking
+* Exploitation for Privilege Escalation
+* Hijack Execution Flow
+  * DLL Search Order Hijacking
+  * DLL Side-Loading
+  * Dylib Hijacking
+  * Executable Installer File Permissions Weakness
+  * Dynamic Linker Hijacking
+  * Path Interception by PATH Environment Variable
+  * Path Interception by Search Order Hijacking
+  * Path Interception by Unquoted Path
+  * Services File Permissions Weakness
+  * Services Registry Permissions Weakness
+  * COR_PROFILER
+  * KernelCallbackTable
+* Process Injection
+  * Dynamic-link Library Injection
+  * Portable Executable Injection
+  * Thread Execution Hijacking
+  * Asynchronous Procedure Call
+  * Thread Local Storage
+  * Ptrace System Calls
+  * Proc Memory
+  * Extra Window Memory Injection
+  * Process Hollowing
+  *	Process Doppelgänging
+  *	VDSO Hijacking
+  * ListPlanting
+* Scheduled Task/Job
+  * At
+  * Cron
+  * Scheduled Task
+  * Systemd Timers
+  * Container Orchestration Job
+* Valid Accounts
+  * Default Accounts
+  * Domain Accounts
+  * Local Accounts
+  * Cloud Accounts
