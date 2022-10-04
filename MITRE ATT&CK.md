@@ -6,7 +6,7 @@
 * 4.Execution 執行
 * 5.Persistence 持續潛伏
 * 6.Privilege Escalation 權限提升
-* 7.Defense Evasion 防禦逃脫
+* 7.Defense Evasion 防禦規避
 * 8.Credential Access	憑證存取
 * 9.Discovery 發現
 * 10.Lateral Movement	橫向移動
@@ -368,7 +368,7 @@
   * Local Accounts 本地帳號
   * Cloud Accounts 雲端帳號
   ---
- 7.Defense Evasion 防禦逃脫
+ 7.Defense Evasion 防禦規避
  ===
  * Abuse Elevation Control Mechanism 濫用提升控制機制
    * Setuid and Setgid 設置UID 與 設置GID
@@ -532,7 +532,7 @@
     *	Domain Accounts 網域帳號
     *	Local Accounts 本地帳號
     *	Cloud Accounts 雲端帳號
- *	Virtualization/Sandbox Evasion 虛擬化/沙盒逃脫
+ *	Virtualization/Sandbox Evasion 虛擬化/沙盒規避
     *	System Checks 系統檢查
     *	User Activity Based Checks 	基於用戶活動的檢查
     * Time Based Evasion  	基於時間的規避
@@ -604,46 +604,47 @@
    ---	
 9.Discovery 發現
 ===
-* Account Discovery
-  * Local Account
-  * Domain Account
-  * Email Account
-  * Cloud Account	
-* Application Window Discovery
-* Browser Bookmark Discovery
-* Cloud Infrastructure Discovery
-* Cloud Service Dashboard
-* Cloud Service Discovery
-* Cloud Storage Object Discovery
-* Container and Resource Discovery
-* Debugger Evasion
-* Domain Trust Discovery
-* File and Directory Discovery
-* Group Policy Discovery	
-* Network Service Discovery
-* Network Share Discovery
-* Network Sniffing
-* Password Policy Discovery
-*	Peripheral Device Discovery
-*	Permission Groups Discovery
-    *	Local Groups
-    *	Domain Groups
-    *	Cloud Groups
-*	Process Discovery
-*	Query Registry
-*	Remote System Discovery
-*	Software Discovery
-    *	Security Software Discovery
-*	System Information Discovery
-*	System Location Discovery
-    *	System Language Discovery
-*	System Network Configuration Discovery
-    *	Internet Connection Discovery
-*	System Network Connections Discovery
-*	System Owner/User Discovery
-*	System Service Discovery
-*	System Time Discovery
-*	Virtualization/Sandbox Evasion
-    *	System Checks
-    *	User Activity Based Checks
-    *	Time Based Evasion
+* Account Discovery 帳號發現
+  * Local Account 本地帳號
+  * Domain Account 網域帳號
+  * Email Account 電子信箱帳號
+  * Cloud Account 雲端帳號
+* Application Window Discovery Windows應用程式發現
+* Browser Bookmark Discovery 瀏覽器書籤發現 
+* Cloud Infrastructure Discovery 雲端基礎設備發現
+* Cloud Service Dashboard 雲端服務儀表板
+* Cloud Service Discovery 雲端服務發現
+* Cloud Storage Object Discovery 雲端儲存物件發現
+* Container and Resource Discovery 容器和資源發現
+* Debugger Evasion 調試器規避
+* Domain Trust Discovery 網域信任發現
+* File and Directory Discovery 檔案與目錄發現
+* Group Policy Discovery 群組政策發現
+* Network Service Discovery 網路服務發現
+* Network Share Discovery 網路共享發現
+* Network Sniffing 網路嗅探
+* Password Policy Discovery 密碼策略發現
+*	Peripheral Device Discovery 外圍設備發現
+*	Permission Groups Discovery 許可權組發現
+    *	Local Groups  本地群組
+    *	Domain Groups 網域群組
+    *	Cloud Groups 雲端群組
+*	Process Discovery 進程發現	
+*	Query Registry 	查詢註冊表
+*	Remote System Discovery 遠端系統發現
+*	Software Discovery 軟體發現
+    *	Security Software Discovery 安全軟體發現
+*	System Information Discovery 系統信息發現
+*	System Location Discovery 系統位置發現
+    *	System Language Discovery 系統語言發現
+*	System Network Configuration Discovery 系統網路配置發現
+    *	Internet Connection Discovery 互聯網連接發現
+*	System Network Connections Discovery 系統網路連接發現
+*	System Owner/User Discovery 系統擁有者/用戶發現
+*	System Service Discovery 系統服務發現
+*	System Time Discovery 系統時間發現
+*	Virtualization/Sandbox Evasion 虛擬化/沙箱規避
+    *	System Checks 	系統檢查
+    *	User Activity Based Checks 基於用戶活動的檢查
+    *	Time Based Evasion 	基於時間的規避
+---
