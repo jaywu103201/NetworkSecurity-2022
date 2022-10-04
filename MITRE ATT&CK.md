@@ -161,28 +161,28 @@
 ---
 5.Persistence 持續潛伏
 ===
-* Account Manipulation
-  * Additional Cloud Credentials
-  * Additional Email Delegate Permissions
-  * Additional Cloud Roles
-  * SSH Authorized Keys
-  * Device Registration
-* BITS Jobs
-* Boot or Logon Autostart Execution
-  * Registry Run Keys / Startup Folder
-  * Authentication Package
-  * Time Providers
-  * Winlogon Helper DLL
-  * Security Support Provider
-  * Kernel Modules and Extensions
-  * Re-opened Applications
-  * LSASS Driver
-  * Shortcut Modification
-  * Port Monitors
-  * Print Processors
-  * XDG Autostart Entries
-  * Active Setup
-  * Login Items	
+* Account Manipulation 帳戶操縱
+  * Additional Cloud Credentials 添加雲端憑證
+  * Additional Email Delegate Permissions 添加電子信箱委託權限
+  * Additional Cloud Roles 添加雲端角色
+  * SSH Authorized Keys SSH授權密碼
+  * Device Registration 裝置註冊
+* BITS Jobs 後台智能傳輸服務
+* Boot or Logon Autostart Execution 啟動或登入開始自動執行
+  * Registry Run Keys / Startup Folder 註冊表運行鍵/啟動資料夾
+  * Authentication Package 用戶認證包
+  * Time Providers 時間提供者
+  * Winlogon Helper DLL Windows 組件
+  * Security Support Provider 安全支援供應商
+  * Kernel Modules and Extensions 內核模組與擴展
+  * Re-opened Applications 重新開放應用程式
+  * LSASS Driver LSASS驅動
+  * Shortcut Modification 快捷鍵修改
+  * Port Monitors 端口監視器
+  * Print Processors 影印處理器
+  * XDG Autostart Entries XDG自動啟動項目
+  * Active Setup 主動設置
+  * Login Items 
 * Boot or Logon Initialization Scripts
   * Logon Script (Windows)
   * Login Hook
