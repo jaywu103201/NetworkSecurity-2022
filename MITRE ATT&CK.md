@@ -229,7 +229,7 @@
   *	Services File Permissions Weakness 服務文件許可權弱點
   *	Services Registry Permissions Weakness 服務註冊表許可權弱點
   *	COR_PROFILER COR_PROFILER環境變數劫持載入
-  *	KernelCallbackTable 內核回乎表
+  *	KernelCallbackTable 內核回乎表 
 * Implant Internal Image	
 * Modify Authentication Process
   * Domain Controller Authentication
