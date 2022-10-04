@@ -218,7 +218,7 @@
   * Component Object Model Hijacking 劫持組件對象模型
 * External Remote Services 外部遠程服務
 * Hijack Execution Flow 劫持執行流程
-  * DLL Search Order Hijacking 劫持DLL檔搜尋目錄
+  * DLL Search Order Hijacking  劫持DLL檔搜索命令
   * DLL Side-Loading DLL旁側載入
   *	Dylib Hijacking 劫持 dylib(惡意程式庫)
   *	Executable Installer File Permissions Weakness 可執行安裝檔案權限弱點
@@ -249,7 +249,7 @@
   * Component Firmware 元件韌體
   * Bootkit 引導套件
   * ROMMONkit  ROM監視器
-  * TFTP Boot 網路引導
+  * TFTP Boot 檔案傳輸通訊協定引導
 * Scheduled Task/Job 工作排程器
   * At 用於在指定的時間和日期計劃任務
   * Cron Unix 作業系統的基於時間的作業調度程式
@@ -331,7 +331,7 @@
   * Component Object Model Hijacking 元件物件模型劫持
 * Exploitation for Privilege Escalation 利用漏洞進行特權提升
 * Hijack Execution Flow 劫持執行流程
-  * DLL Search Order Hijacking DLL搜尋目錄劫持
+  * DLL Search Order Hijacking DLL搜索命令劫持
   * DLL Side-Loading DLL旁側載入
   * Dylib Hijacking Dylib(惡意動態庫)劫持
   * Executable Installer File Permissions Weakness 可執行安裝程式檔許可權弱點
@@ -345,7 +345,7 @@
   * KernelCallbackTable 內核回函表
 * Process Injection 進程注入
   * Dynamic-link Library Injection 動態連結庫注入
-  * Portable Executable Injection 可移植可執行注入
+  * Portable Executable Injection 可移植的可執行文件注入
   * Thread Execution Hijacking 線程執行劫持
   * Asynchronous Procedure Call 異步過程調用
   * Thread Local Storage 線程本地存儲
@@ -370,173 +370,175 @@
   ---
  7.Defense Evasion 防禦逃脫
  ===
- * Abuse Elevation Control Mechanism
-   * Setuid and Setgid
-   * Bypass User Account Control
-   * Sudo and Sudo Caching
-   * Elevated Execution with Prompt
- * Access Token Manipulation
-   * Token Impersonation/Theft
-   * Create Process with Token
-   * Make and Impersonate Token
-   * Parent PID Spoofing
-   * SID-History Injection
- * BITS Jobs
- * Build Image on Host
- * Debugger Evasion
- * Deobfuscate/Decode Files or Information
- * Deploy Container
- * Direct Volume Access
- * Domain Policy Modification	
-   * Group Policy Modification
-   * Domain Trust Modification
- * Execution Guardrails
-   * Environmental Keying
- * Exploitation for Defense Evasion
- * File and Directory Permissions Modification
-   * Windows File and Directory Permissions Modification
-   * Linux and Mac File and Directory Permissions Modification
- * Hide Artifacts
-   * Hidden Files and Directories
-   * Hidden Users
-   * Hidden Window
-   * NTFS File Attributes
-   * Hidden File System
-   * Run Virtual Instance
-   * VBA Stomping
-   * Email Hiding Rules
-   * Resource Forking
-   * Process Argument Spoofing 
- * Hijack Execution Flow
-   * DLL Search Order Hijacking
-   * DLL Side-Loading
-   * Dylib Hijacking
-   * Executable Installer File Permissions Weakness
-   * Dynamic Linker Hijacking
-   * Path Interception by PATH Environment Variable
-   * Path Interception by Search Order Hijacking
-   * Path Interception by Unquoted Path
-   * Services File Permissions Weakness
-   * Services Registry Permissions Weakness
-   * COR_PROFILER
-   * KernelCallbackTable
- * Impair Defenses
-   * Disable or Modify Tools
-   * Disable Windows Event Logging
-   * Impair Command History Logging
-   * Disable or Modify System Firewall
-   * Indicator Blocking
-   * Disable or Modify Cloud Firewall
-   * Disable Cloud Logs
-   * Safe Mode Boot
-   * Downgrade Attack
- * Indicator Removal on Host
-   * Clear Windows Event Logs
-   * Clear Linux or Mac System Logs
-   * Clear Command History
-   * File Deletion
-   * Network Share Connection Removal
-   * Timestomp 
- * Indirect Command Execution
- * Masquerading
-   * Invalid Code Signature
-   * Right-to-Left Override
-   * Rename System Utilities
-   * Masquerade Task or Service
-   * Match Legitimate Name or Location
-   * Space after Filename
-   * Double File Extension
- *	Modify Authentication Process
-    *	Domain Controller Authentication
-    *	Password Filter DLL
-    *	Pluggable Authentication Modules
-    *	Network Device Authentication
-    *	Reversible Encryption
- *	Modify Cloud Compute Infrastructure
-    *	Create Snapshot
-    *	Create Cloud Instance
-    *	Delete Cloud Instance
-    *	Revert Cloud Instance
- *	Modify Registry
- *	Modify System Image
-    * Patch System Image
-    * Downgrade System Image
-    * Network Boundary Bridging
-    *	Network Address Translation Traversal
- *	Obfuscated Files or Information
-    *	Binary Padding
-    *	Software Packing
-    *	Steganography
-    *	Compile After Delivery
-    *	Indicator Removal from Tools
-    *	HTML Smuggling
- *	Plist File Modification
- *	Pre-OS Boot
-    *	System Firmware
-    *	Component Firmware
-    *	Bootkit
-    * ROMMONkit
-    * TFTP Boot
- *	Process Injection
-    *	Dynamic-link Library Injection
-    *	Portable Executable Injection	
-    *	Thread Execution Hijacking
-    *	Asynchronous Procedure Call
-    *	Thread Local Storage
-    *	Ptrace System Calls
-    *	Proc Memory
-    *	Extra Window Memory Injection
-    *	Process Hollowing
-    *	Process Doppelgänging
-    *	VDSO Hijacking
-    *	ListPlanting
- *	Reflective Code Loading
- *	Rogue Domain Controller
- *	Rootkit
- *	Subvert Trust Controls
-    *	Gatekeeper Bypass
-    *	Code Signing
-    *	SIP and Trust Provider Hijacking
-    *	Install Root Certificate
-    *	Mark-of-the-Web Bypass
-    *	Code Signing Policy Modification 
- *	System Binary Proxy Execution
-    *	Compiled HTML File
-    *	Control Panel
-    *	CMSTP
-    *	InstallUtil
-    *	Mshta
-    *	Msiexec
-    *	Odbcconf
-    *	Regsvcs/Regasm
-    *	Regsvr32
-    *	Rundll32
-    *	Verclsid
-    *	Mavinject
-    *	MMC
- *	System Script Proxy Execution
-    *	PubPrn
- *	Template Injection
- *	Traffic Signaling
-    *	Port Knocking
- *	Trusted Developer Utilities Proxy Execution
-    *	MSBuild
- *	Unused/Unsupported Cloud Regions
- *	Use Alternate Authentication Material
-    *	Application Access Token
-    *	Pass the Hash
-    *	Pass the Ticket
-    *	Web Session Cookie
- *	Valid Accounts
-    *	Default Accounts
-    *	Domain Accounts
-    *	Local Accounts
-    *	Cloud Accounts
- *	Virtualization/Sandbox Evasion
-    *	System Checks
-    *	User Activity Based Checks
-    * Time Based Evasion 
- *	Weaken Encryption
-    *	Reduce Key Space
-    *	Disable Crypto Hardware	
- *	XSL Script Processing
+ * Abuse Elevation Control Mechanism 濫用提升控制機制
+   * Setuid and Setgid 設置UID 與 設置GID
+   * Bypass User Account Control 繞過用戶帳號控制
+   * Sudo and Sudo Caching 超級使用者 與 超級使用者緩存
+   * Elevated Execution with Prompt 透過提示提升許可權
+ * Access Token Manipulation 訪問令牌操作
+   * Token Impersonation/Theft 令牌盜用/竊取
+   * Create Process with Token 使用令牌創建進程
+   * Make and Impersonate Token 製作與模擬令牌
+   * Parent PID Spoofing 父進程PID欺騙
+   * SID-History Injection 注入SID歷史
+ * BITS Jobs 智慧傳輸服務工作 
+ * Build Image on Host 在主機上建構映像檔
+ * Debugger Evasion 調試器規避
+ * Deobfuscate/Decode Files or Information 對檔案或資訊進行反混淆/解碼
+ * Deploy Container 部屬容器
+ * Direct Volume Access 直接訪問標籤
+ * Domain Policy Modification 網域策略修改
+   * Group Policy Modification 群組策略修改
+   * Domain Trust Modification 網域信任修改
+ * Execution Guardrails 執行護欄
+   * Environmental Keying 環境鍵控
+ * Exploitation for Defense Evasion 利用防禦規避
+ * File and Directory Permissions Modification 文件和目錄許可權修改
+   * Windows File and Directory Permissions Modification Windows文件和目錄許可權修改
+   * Linux and Mac File and Directory Permissions Modification Linux and Mac文件和目錄許可權修改
+ * Hide Artifacts 隱藏偽影
+   * Hidden Files and Directories 隱藏的檔案和目錄
+   * Hidden Users 隱藏使用者
+   * Hidden Window 	隱藏視窗
+   * NTFS File Attributes NTFS檔案屬性
+   * Hidden File System 隱藏檔案系統
+   * Run Virtual Instance 運行虛擬實例
+   * VBA Stomping VBA踩踏
+   * Email Hiding Rules 電子信箱隱藏規則
+   * Resource Forking 資源分叉
+   * Process Argument Spoofing 進程參數欺騙
+ * Hijack Execution Flow 劫持執行流程
+   * DLL Search Order Hijacking  DLL搜索命令劫持
+   * DLL Side-Loading DLL旁側載入
+   * Dylib Hijacking Dylib(惡意程式庫)劫持
+   * Executable Installer File Permissions Weakness 可執行安裝程式檔許可權弱點
+   * Dynamic Linker Hijacking 動態連結器劫持
+   * Path Interception by PATH Environment Variable 路徑環境變數的路徑攔截
+   * Path Interception by Search Order Hijacking 通過搜索命令劫持進行路徑攔截
+   * Path Interception by Unquoted Path 未加引號路徑的路徑攔截
+   * Services File Permissions Weakness 服務文件許可權弱點
+   * Services Registry Permissions Weakness 服務註冊表許可權弱點
+   * COR_PROFILER 利用COR_PROFILER環境變數來劫持載入
+   * KernelCallbackTable 內核回乎表
+ * Impair Defenses 損害防禦
+   * Disable or Modify Tools 禁用或修改工具
+   * Disable Windows Event Logging 禁用windows事件記錄
+   * Impair Command History Logging 損害命令列歷史記錄
+   * Disable or Modify System Firewall 	禁用或修改系統防火牆
+   * Indicator Blocking 指示器阻塞
+   * Disable or Modify Cloud Firewall 禁用或修改雲端防火牆
+   * Disable Cloud Logs 禁用雲端日誌
+   * Safe Mode Boot 安全模式啟動
+   * Downgrade Attack 降級攻擊
+ * Indicator Removal on Host 	主機上的指示器刪除
+   * Clear Windows Event Logs 清除windows事件日誌
+   * Clear Linux or Mac System Logs 清除Linux or Mac系統日誌
+   * Clear Command History 清除命令列歷史紀錄
+   * File Deletion 檔案刪除
+   * Network Share Connection Removal 刪除網路共享連接
+   * Timestomp 時間戳
+ * Indirect Command Execution 間接命令執行
+ * Masquerading 偽裝
+   * Invalid Code Signature 無效的代碼簽名
+   * Right-to-Left Override 從右向左覆蓋
+   * Rename System Utilities 重新命名系統實用程式
+   * Masquerade Task or Service 偽裝線程或服務
+   * Match Legitimate Name or Location 匹配合法名稱或位置
+   * Space after Filename 檔名後面的空格
+   * Double File Extension 雙檔擴展名
+ *	Modify Authentication Process 修改身份驗證過程
+    *	Domain Controller Authentication 網域控制器身份驗證
+    *	Password Filter DLL 密碼過濾器
+    *	Pluggable Authentication Modules 可插拔身份驗證模組
+    *	Network Device Authentication 網路設備身份驗證
+    *	Reversible Encryption可逆加密
+ *	Modify Cloud Compute Infrastructure 	修改雲端計算基礎架構
+    *	Create Snapshot 創建快照
+    *	Create Cloud Instance 創建雲端實例
+    *	Delete Cloud Instance 刪除雲端實例
+    *	Revert Cloud Instance 恢復雲端實例
+ *	Modify Registry 修改註冊表
+ *	Modify System Image 修改系統映像
+    * Patch System Image 	修補程式系統映像
+    * Downgrade System Image 降級系統映像
+ * Network Boundary Bridging 網路邊界橋接
+    *	Network Address Translation Traversal 網路位置轉換
+ *	Obfuscated Files or Information 混淆檔或資訊
+    *	Binary Padding 二進位填充
+    *	Software Packing 打包軟體
+    *	Steganography 隱寫術
+    *	Compile After Delivery 派送後編譯
+    *	Indicator Removal from Tools 從工具中刪除指標
+    *	HTML Smuggling HTML 走私
+ *	Plist File Modification 清單檔案修改
+ *	Pre-OS Boot 	操作系統啟動前
+    *	System Firmware 系統韌體
+    *	Component Firmware 元件韌體
+    *	Bootkit 引導套件
+    * ROMMONkit  ROM監視器
+    * TFTP Boot 檔案傳輸通訊協定引導
+ *	Process Injection 進程注入
+    *	Dynamic-link Library Injection 動態連結庫注入
+    *	Portable Executable Injection 可移植的可執行文件注入
+    *	Thread Execution Hijacking 線程執行劫持
+    *	Asynchronous Procedure Call 異步過程調用
+    *	Thread Local Storage 	線程本地存儲
+    *	Ptrace System Calls 跟蹤系統調用
+    *	Proc Memory 記憶體歷程
+    *	Extra Window Memory Injection EWM式注入
+    *	Process Hollowing 傀儡進程
+    *	Process Doppelgänging 分身進程
+    *	VDSO Hijacking 虛擬動態共享物件劫持
+    *	ListPlanting 清單佈局
+ *	Reflective Code Loading 反射式代碼載入
+ *	Rogue Domain Controller 惡意網域控制器
+ *	Rootkit 隱藏其他程式進程的軟體
+ *	Subvert Trust Controls 	顛覆信任控制
+    *	Gatekeeper Bypass 可繞過Gatekeeper(Mac安全軟體)
+    *	Code Signing 代碼簽章
+    *	SIP and Trust Provider Hijacking 會話發起協議與信任提供商劫持
+    *	Install Root Certificate 安裝root憑證
+    *	Mark-of-the-Web Bypass 繞過MoTW檔案類型
+    *	Code Signing Policy Modification  代碼簽章策略修改
+ *	System Binary Proxy Execution 系統二進位代理執行
+    *	Compiled HTML File 已編譯的網頁檔
+    *	Control Panel 控制面板
+    *	CMSTP 安裝連接管理器服務配置文件的命令行程序
+    *	InstallUtil 安裝與卸載命令列公用程式
+    *	Mshta Windows操作系統相關程序
+    *	Msiexec 系統進程，是Windows Installer的一部分
+    *	Odbcconf 命令行工具，可用於配置ODBC 驅動程式與數據源名稱
+    *	Regsvcs/Regasm 組件登入工具
+    *	Regsvr32 命令行工具，用來註冊COM組件
+    *	Rundll32 用來執行32位元的DLL檔
+    *	Verclsid Microsoft XP 安全更新程序
+    *	Mavinject windwos組件，可在進程運行中做代碼注入
+    *	MMC  Microsoft管理主控台
+ *	System Script Proxy Execution 系統腳本代理執行
+    *	PubPrn PubPrn.vbs 是一個可視化基本腳本
+ *	Template Injection 模板注入
+ *	Traffic Signaling 交通信號
+    *	Port Knocking 端口敲門
+ *	Trusted Developer Utilities Proxy Execution 受信任的開發人員實用程式代理執行
+    *	MSBuild MSBuild.exe（微軟生成引擎）
+ *	Unused/Unsupported Cloud Regions 未使用/不支持的雲端區域
+ *	Use Alternate Authentication Material 使用備用身份驗證資訊
+    *	Application Access Token 應用程式訪問令牌
+    *	Pass the Hash 傳遞哈希值
+    *	Pass the Ticket  傳遞票證
+    *	Web Session Cookie 網頁會話 Cookie 
+ *	Valid Accounts 有效帳號
+    *	Default Accounts 默認帳號
+    *	Domain Accounts 網域帳號
+    *	Local Accounts 本地帳號
+    *	Cloud Accounts 雲端帳號
+ *	Virtualization/Sandbox Evasion 虛擬化/沙盒逃脫
+    *	System Checks 系統檢查
+    *	User Activity Based Checks 	基於用戶活動的檢查
+    * Time Based Evasion  	基於時間的規避
+ *	Weaken Encryption 削弱加密
+    *	Reduce Key Space 減少金鑰空間
+    *	Disable Crypto Hardware	禁用加密硬體
+ *	XSL Script Processing  XSL檔 腳本處理
+ ---
+ 
