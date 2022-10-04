@@ -543,62 +543,62 @@
  ---
  8.Credential Access	憑證存取
  ====
- * Adversary-in-the-Middle
-    * LLMNR/NBT-NS Poisoning and SMB Relay
-    * ARP Cache Poisoning
-    * DHCP Spoofing
- *	Brute Force
-    *	Password Guessing
-    *	Password Cracking
-    *	Password Spraying
-    *	Credential Stuffing
- *	Credentials from Password Stores
-    *	Keychain
-    *	Securityd Memory
-    *	Credentials from Web Browsers
-    *	Windows Credential Manager
-    *	Password Managers
- *	Exploitation for Credential Access
- *	Forced Authentication	
- *	Forge Web Credentials
-    *	Web Cookies
-    *	SAML Tokens
- *	Input Capture
-    *	Keylogging
-    *	GUI Input Capture
-    *	Web Portal Capture
-    *	Credential API Hooking
- *	Modify Authentication Process
-    *	Domain Controller Authentication
-    *	Password Filter DLL
-    *	Pluggable Authentication Modules
-    *	Network Device Authentication
-    *	Reversible Encryption
- *	Multi-Factor Authentication Interception
- *	Multi-Factor Authentication Request Generation
- *	Network Sniffing
- *	OS Credential Dumping
-    *	LSASS Memory
-    *	Security Account Manager
-    *	NTDS
-    *	LSA Secrets
-    *	Cached Domain Credentials
-    *	DCSync
-    *	Proc Filesystem
-    *	/etc/passwd and /etc/shadow
- *	Steal Application Access Token
- *	Steal or Forge Kerberos Tickets
-    *	Golden Ticket
-    *	Silver Ticket
-    *	Kerberoasting
-    *	AS-REP Roasting
- *	Steal Web Session Cookie
- *	Unsecured Credentials	
-    * Credentials In Files
-    * Credentials in Registry
-    * Bash History
-    * Private Keys
-    * Cloud Instance Metadata API
-    * Group Policy Preferences
-    * Container API
+ * Adversary-in-the-Middle 中間人攻擊
+    * LLMNR/NBT-NS Poisoning and SMB Relay  LLMNR/NBT-NS中毒與SMB中繼
+    * ARP Cache Poisoning  ARP毒化
+    * DHCP Spoofing DHCP欺騙
+ *	Brute Force 暴力破解
+    *	Password Guessing 密碼猜測
+    *	Password Cracking 	密碼破解
+    *	Password Spraying 密碼噴塗
+    *	Credential Stuffing 撞庫
+ *	Credentials from Password Stores 密碼庫中的憑證
+    *	Keychain 鑰匙串
+    *	Securityd Memory 安全記憶體
+    *	Credentials from Web Browsers	來自 Web 瀏覽器的憑證
+    *	Windows Credential Manager windows憑證管理員
+    *	Password Managers 密碼管理員
+ *	Exploitation for Credential Access 利用憑證訪問
+ *	Forced Authentication	強制身份驗證
+ *	Forge Web Credentials 偽造網路憑證
+    *	Web Cookies 網頁cookies
+    *	SAML Tokens  SAML 令牌簽名證書
+ *	Input Capture 輸入捕捉
+    *	Keylogging 鍵盤記錄
+    *	GUI Input Capture 圖形使用者介面輸入捕捉
+    *	Web Portal Capture 入口網站捕捉 
+    *	Credential API Hooking 憑證介面掛鉤
+ *	Modify Authentication Process 修改身份驗證過程
+    *	Domain Controller Authentication 網域控制器身份驗證
+    *	Password Filter DLL 密碼過濾器DLL檔 
+    *	Pluggable Authentication Modules 可插拔身份驗證模組
+    *	Network Device Authentication 驗證網路設備身份
+    *	Reversible Encryption 可逆加密
+ *	Multi-Factor Authentication Interception 攔截多重身份驗證
+ *	Multi-Factor Authentication Request Generation 請求生成多重身份驗證
+ *	Network Sniffing  網路嗅探
+ *	OS Credential Dumping 作業系統轉儲憑證
+    *	LSASS Memory (LSASS)本地安全機構子系統服務 記憶體
+    *	Security Account Manager 帳號安全管理源
+    *	NTDS 註冊表路徑
+    *	LSA Secrets 鏈路狀態通告秘密
+    *	Cached Domain Credentials 網域緩存憑證
+    *	DCSync 透過DRS向網域發起數據同步請求
+    *	Proc Filesystem 進程 文件系統
+    *	/etc/passwd and /etc/shadow Linux帳號管理路徑
+ *	Steal Application Access Token 竊取應用程式訪問令牌
+ *	Steal or Forge Kerberos Tickets 竊取或鍛造Kerberos票證
+    *	Golden Ticket 黃金票證
+    *	Silver Ticket 銀票正
+    *	Kerberoasting 是一種在請求訪問時利用Kerberos協議中弱點的技術
+    *	AS-REP Roasting 對用戶帳號進行離線爆破的攻擊方式
+ *	Steal Web Session Cookie 竊取網頁會話cookie
+ *	Unsecured Credentials	不安全的憑據
+    * Credentials In Files 檔中的憑證
+    * Credentials in Registry 註冊表中的憑證
+    * Bash History 命令處理器歷史紀錄
+    * Private Keys 私人密鑰
+    * Cloud Instance Metadata API 雲端實例元數據介面
+    * Group Policy Preferences 組組策略首選
+    * Container API 容器介面
    ---	
