@@ -123,3 +123,17 @@
   * Local Accounts 本地帳號
   * Cloud Accounts 雲端帳號
 ---
+4.Execution 執行
+===
+* Command and Scripting Interpreter
+* Container Administration Command
+* Deploy Container
+* Exploitation for Client Execution
+* Inter-Process Communication
+* Native API
+* Scheduled Task/Job
+* Shared Modules
+* Software Deployment Tools
+* System Services
+* User Execution
+* Windows Management Instrumentation
