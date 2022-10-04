@@ -182,54 +182,54 @@
   * Print Processors 影印處理器
   * XDG Autostart Entries XDG自動啟動項目
   * Active Setup 主動設置
-  * Login Items 
-* Boot or Logon Initialization Scripts
-  * Logon Script (Windows)
-  * Login Hook
-  * Network Logon Script
-  * RC Scripts
-  * Startup Items
-* Browser Extensions
-* Compromise Client Software Binary
-* Create Account
-  * Local Account
-  * Domain Account
-  * Cloud Account
-* Create or Modify System Process
-  * Launch Agent
-  * Systemd Service
-  * Windows Service
-  * Launch Daemon
-* Event Triggered Execution
-  * Change Default File Association
-  * Screensaver
-  * Windows Management Instrumentation Event Subscription
-  * Unix Shell Configuration Modification
-  * Trap
-  * LC_LOAD_DYLIB Addition
-  * Netsh Helper DLL
-  * Accessibility Features
-  * AppCert DLLs
-  * AppInit DLLs
-  * Application Shimming
-  * Image File Execution Options Injection
-  * PowerShell Profile
-  * Emond
-  * Component Object Model Hijacking
-* External Remote Services
-* Hijack Execution Flow
-  * DLL Search Order Hijacking
-  * DLL Side-Loading
-  *	Dylib Hijacking
-  *	Executable Installer File Permissions Weakness
-  *	Dynamic Linker Hijacking
-  *	Path Interception by PATH Environment Variable
-  *	Path Interception by Search Order Hijacking
-  *	Path Interception by Unquoted Path
-  *	Services File Permissions Weakness
-  *	Services Registry Permissions Weakness
-  *	COR_PROFILER
-  *	KernelCallbackTable
+  * Login Items 登入項目
+* Boot or Logon Initialization Scripts 引導或登入初始化腳本 
+  * Logon Script (Windows) 登入腳本
+  * Login Hook 登陸掛勾
+  * Network Logon Script 網路登入腳本 
+  * RC Scripts RC腳本
+  * Startup Items 啟動項目
+* Browser Extensions 瀏覽器擴展
+* Compromise Client Software Binary 竄改客戶端軟體二進制
+* Create Account 創立帳號
+  * Local Account 本地帳號
+  * Domain Account 網域帳號
+  * Cloud Account 雲端帳號
+* Create or Modify System Process 創立或修改系統進程
+  * Launch Agent 啟動代理
+  * Systemd Service 系統服務
+  * Windows Service windosw服務
+  * Launch Daemon 啟動守護進程
+* Event Triggered Execution 事件觸發執行
+  * Change Default File Association 更改默認關聯文件
+  * Screensaver 螢幕保護
+  * Windows Management Instrumentation Event Subscription 訂閱windows管理事件規範
+  * Unix Shell Configuration Modification Unix Shlee配置修改
+  * Trap 陷阱
+  * LC_LOAD_DYLIB Addition 注入LC_LOAD_DYLIB
+  * Netsh Helper DLL 網路配置命令工具
+  * Accessibility Features 輔助功能
+  * AppCert DLLs 注入AppCert DLLs 註冊表項
+  * AppInit DLLs AppInit DLLs 註冊表項
+  * Application Shimming 應用程式預置
+  * Image File Execution Options Injection 圖片檔案執行選項注入
+  * PowerShell Profile PowerShell設定檔
+  * Emond 啟動守護進程
+  * Component Object Model Hijacking 劫持組件對象模型
+* External Remote Services 外部遠程服務
+* Hijack Execution Flow 劫持執行流程
+  * DLL Search Order Hijacking 劫持DLL檔搜尋目錄
+  * DLL Side-Loading 側裝DLL檔
+  *	Dylib Hijacking 劫持 dylib(惡意程式庫)
+  *	Executable Installer File Permissions Weakness 可執行安裝檔案權限弱點
+  *	Dynamic Linker Hijacking 劫持動態連結
+  *	Path Interception by PATH Environment Variable 環境變數的路徑攔截
+  *	Path Interception by Search Order Hijacking 通過搜索命令劫持路徑攔截
+  *	Path Interception by Unquoted Path 未引用的路徑攔截
+  *	Services File Permissions Weakness 服務文件許可權弱點
+  *	Services Registry Permissions Weakness 服務註冊表許可權弱點
+  *	COR_PROFILER COR_PROFILER環境變數劫持載入
+  *	KernelCallbackTable 內核回乎表
 * Implant Internal Image	
 * Modify Authentication Process
   * Domain Controller Authentication
