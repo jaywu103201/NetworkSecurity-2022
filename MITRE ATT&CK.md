@@ -255,17 +255,17 @@
   * Cron Unix 作業系統的基於時間的作業調度程式
   * Scheduled Task 工作排程器
   * Systemd Timers 系統定時器
-  * Container Orchestration Job	
-* Server Software Component
-  * SQL Stored Procedures
-  * Transport Agent
-  * Web Shell
-  * IIS Components
-  * Terminal Services DLL
-* Traffic Signaling
-  * Port Knocking
-* Valid Accounts
-  * Default Accounts
-  * Domain Accounts
-  * Local Accounts
-  * Cloud Accounts
+  * Container Orchestration Job 容器編排作業	
+* Server Software Component 伺服器軟體元件
+  * SQL Stored Procedures SQL儲存過程
+  * Transport Agent 傳輸代理
+  * Web Shell 在網頁上執行Shell
+  * IIS Components IIS元件 
+  * Terminal Services DLL 終端服務DLL檔
+* Traffic Signaling 交通號誌
+  * Port Knocking 端口敲門
+* Valid Accounts 有效帳號
+  * Default Accounts 默認帳號 
+  * Domain Accounts 網域帳號
+  * Local Accounts 本地帳號
+  * Cloud Accounts 雲端帳號
