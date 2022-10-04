@@ -125,8 +125,8 @@
 ---
 4.Execution 執行
 ===
-* Command and Scripting Interpreter
-  * PowerShell
+* Command and Scripting Interpreter 命令與腳本解譯器
+  * PowerShell 
   * AppleScript	
   * Windows Command Shell
   * Unix Shell
@@ -134,27 +134,28 @@
   * Python
   * JavaScript
   * Network Device CLI 
-* Container Administration Command
-* Deploy Container
-* Exploitation for Client Execution
-* Inter-Process Communication
-  * Component Object Model
-  * Dynamic Data Exchange
-  * XPC Services
-* Native API
-* Scheduled Task/Job
-  * At
-  * Cron
-  * Scheduled Task
-  * Systemd Timers
-  * Container Orchestration Job
-* Shared Modules
-* Software Deployment Tools
-* System Services
-  * Launchctl
-  * Service Execution
-* User Execution
-  * Malicious Link
-  * Malicious File
-  * Malicious Image
-* Windows Management Instrumentation
+* Container Administration Command 容器管理命令
+* Deploy Container 部屬容器
+* Exploitation for Client Execution 利用客戶端執行
+* Inter-Process Communication  行程間通訊
+  * Component Object Model 組件對象模型
+  * Dynamic Data Exchange 動態數據交換
+  * XPC Services 管理安全的進程間通訊 服務
+* Native API 原生API
+* Scheduled Task/Job 工作排程器
+  * At [海斯命令集](https://zh.m.wikipedia.org/zh-tw/%E6%B5%B7%E6%96%AF%E5%91%BD%E4%BB%A4%E9%9B%86)
+  * Cron [任務管理系統](https://zh.wikipedia.org/zh-tw/Cron)
+  * Scheduled Task 工作排程器
+  * Systemd Timers 系統計時器
+  * Container Orchestration Job 容器編排作業
+* Shared Modules 共享模組
+* Software Deployment Tools 軟體部署工具
+* System Services 系統服務
+  * Launchctl 管理系統的啟動腳本
+  * Service Execution 執行服務
+* User Execution 用戶執行
+  * Malicious Link 惡意連結
+  * Malicious File 惡意檔案
+  * Malicious Image 惡意圖片
+* Windows Management Instrumentation Windows管理規範
+---
