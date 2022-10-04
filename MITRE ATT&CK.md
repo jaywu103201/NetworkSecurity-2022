@@ -172,7 +172,7 @@
   * Registry Run Keys / Startup Folder 註冊表運行鍵/啟動資料夾
   * Authentication Package 用戶認證包
   * Time Providers 時間提供者
-  * Winlogon Helper DLL Windows 組件
+  * Winlogon Helper DLL 安全相關用戶交互介面
   * Security Support Provider 安全支援供應商
   * Kernel Modules and Extensions 內核模組與擴展
   * Re-opened Applications 重新開放應用程式
@@ -187,7 +187,7 @@
   * Logon Script (Windows) 登入腳本
   * Login Hook 登陸掛勾
   * Network Logon Script 網路登入腳本 
-  * RC Scripts RC腳本
+  * RC Scripts 遙控腳本
   * Startup Items 啟動項目
 * Browser Extensions 瀏覽器擴展
 * Compromise Client Software Binary 竄改客戶端軟體二進制
@@ -272,38 +272,38 @@
 ---
 6.Privilege Escalation 權限提升
 ===
-* Abuse Elevation Control Mechanism
-  * Setuid and Setgid
-  * Bypass User Account Control
-  * Sudo and Sudo Caching
-  * 	Elevated Execution with Prompt
-* Access Token Manipulation
-  * Token Impersonation/Theft
-  * Create Process with Token
-  * Make and Impersonate Token
-  * Parent PID Spoofing
-  * SID-History Injection
-* Boot or Logon Autostart Execution
-  * Registry Run Keys / Startup Folder
-  * Authentication Package
-  * Time Providers
-  * Winlogon Helper DLL
-  * Security Support Provider
-  * Kernel Modules and Extensions
-  * Re-opened Applications
-  * LSASS Driver
-  * Shortcut Modification
-  * Port Monitors
-  * Print Processors
-  * XDG Autostart Entries
-  * Active Setup
-  * Login Items
-* Boot or Logon Initialization Scripts
-  * Logon Script (Windows)
-  * Login Hook
-  * Network Logon Script	
-  * RC Scripts
-  * Startup Items
+* Abuse Elevation Control Mechanism 濫用提升控制機制
+  * Setuid and Setgid 設置UID與設置GID
+  * Bypass User Account Control 繞過使用者帳號控制
+  * Sudo and Sudo Caching 超級使用者與超級使用者緩存
+  * Elevated Execution with Prompt 通過提示提升執行力
+* Access Token Manipulation 訪問令牌操作
+  * Token Impersonation/Theft 令牌冒用/偷竊
+  * Create Process with Token 使用令牌建立行程
+  * Make and Impersonate Token 製作與模擬令牌
+  * Parent PID Spoofing 父進程PID欺騙
+  * SID-History Injection 注入SID歷史
+* Boot or Logon Autostart Execution 引導或登錄自動啟動執行
+  * Registry Run Keys / Startup Folder註冊表運行鍵/啟動資料夾
+  * Authentication Package 用戶認證包
+  * Time Providers 時間提供者
+  * Winlogon Helper DLL 安全相關用戶交互介面
+  * Security Support Provider 安全支援供應商 
+  * Kernel Modules and Extensions 內核模組與擴展
+  * Re-opened Applications 重新開放應用程式
+  * LSASS Driver LSASS驅動
+  * Shortcut Modification 快捷鍵修改 
+  * Port Monitors 端口監視器
+  * Print Processors 影印處理器 
+  * XDG Autostart Entries XDG自動啟動項目
+  * Active Setup  主動設置
+  * Login Items 登入項目
+* Boot or Logon Initialization Scripts 引導或登錄初始化腳本
+  * Logon Script (Windows) 登入腳本
+  * Login Hook 登陸掛勾
+  * Network Logon Script	網路登入腳本
+  * RC Scripts 遙控腳本 
+  * Startup Items 啟動項目 
 * Create or Modify System Process
   * Launch Agent
   * Systemd Service
