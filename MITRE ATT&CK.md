@@ -197,7 +197,7 @@
   * Cloud Account 雲端帳號
 * Create or Modify System Process 創立或修改系統進程
   * Launch Agent 啟動代理
-  * Systemd Service 系統服務
+  * Systemd Service 系統化服務
   * Windows Service windosw服務
   * Launch Daemon 啟動守護進程
 * Event Triggered Execution 事件觸發執行
@@ -304,13 +304,13 @@
   * Network Logon Script	網路登入腳本
   * RC Scripts 遙控腳本 
   * Startup Items 啟動項目 
-* Create or Modify System Process
-  * Launch Agent
-  * Systemd Service
-  * Windows Service
-  * Launch Daemon
-* Domain Policy Modification
-  * Group Policy Modification	
+* Create or Modify System Process 創建或修改系統進程
+  * Launch Agent 啟動代理 
+  * Systemd Service 系統化服務
+  * Windows Service windwos服務
+  * Launch Daemon 啟動守護進程
+* Domain Policy Modification 網域策略修改
+  * Group Policy Modification	策略修改
   * Domain Trust Modification
 * Escape to Host
 * Event Triggered Execution	
