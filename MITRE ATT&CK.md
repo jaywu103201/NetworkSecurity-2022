@@ -602,3 +602,48 @@
     * Group Policy Preferences 組組策略首選
     * Container API 容器介面
    ---	
+9.Discovery 發現
+===
+* Account Discovery
+  * Local Account
+  * Domain Account
+  * Email Account
+  * Cloud Account	
+* Application Window Discovery
+* Browser Bookmark Discovery
+* Cloud Infrastructure Discovery
+* Cloud Service Dashboard
+* Cloud Service Discovery
+* Cloud Storage Object Discovery
+* Container and Resource Discovery
+* Debugger Evasion
+* Domain Trust Discovery
+* File and Directory Discovery
+* Group Policy Discovery	
+* Network Service Discovery
+* Network Share Discovery
+* Network Sniffing
+* Password Policy Discovery
+*	Peripheral Device Discovery
+*	Permission Groups Discovery
+  *	Local Groups
+  *	Domain Groups
+  *	Cloud Groups
+*	Process Discovery
+*	Query Registry
+*	Remote System Discovery
+*	Software Discovery
+  *	Security Software Discovery
+*	System Information Discovery
+*	System Location Discovery
+  *	System Language Discovery
+*	System Network Configuration Discovery
+  *	Internet Connection Discovery
+*	System Network Connections Discovery
+*	System Owner/User Discovery
+*	System Service Discovery
+*	System Time Discovery
+*	Virtualization/Sandbox Evasion
+  *	System Checks
+  *	User Activity Based Checks
+  *	Time Based Evasion
