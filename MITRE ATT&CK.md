@@ -210,16 +210,16 @@
   * Netsh Helper DLL 網路配置命令工具
   * Accessibility Features 輔助功能
   * AppCert DLLs 注入AppCert DLLs 註冊表項
-  * AppInit DLLs AppInit DLLs 註冊表項
-  * Application Shimming 應用程式預置
-  * Image File Execution Options Injection 圖片檔案執行選項注入
+  * AppInit DLLs 注入AppInit DLLs 註冊表項
+  * Application Shimming 應用程式填充
+  * Image File Execution Options Injection 圖像檔執行選項注入
   * PowerShell Profile PowerShell設定檔
-  * Emond 啟動守護進程
+  * Emond 事件監視程式守護程式 （emond）
   * Component Object Model Hijacking 劫持組件對象模型
 * External Remote Services 外部遠程服務
 * Hijack Execution Flow 劫持執行流程
   * DLL Search Order Hijacking 劫持DLL檔搜尋目錄
-  * DLL Side-Loading 側裝DLL檔
+  * DLL Side-Loading DLL旁側載入
   *	Dylib Hijacking 劫持 dylib(惡意程式庫)
   *	Executable Installer File Permissions Weakness 可執行安裝檔案權限弱點
   *	Dynamic Linker Hijacking 劫持動態連結
@@ -228,7 +228,7 @@
   *	Path Interception by Unquoted Path 未引用的路徑攔截
   *	Services File Permissions Weakness 服務文件許可權弱點
   *	Services Registry Permissions Weakness 服務註冊表許可權弱點
-  *	COR_PROFILER COR_PROFILER環境變數劫持載入
+  *	COR_PROFILER 利用COR_PROFILER環境變數來劫持載入
   *	KernelCallbackTable 內核回乎表 
 * Implant Internal Image 注入圖片內部
 * Modify Authentication Process 修改身分驗證過程
@@ -251,7 +251,7 @@
   * ROMMONkit  ROM監視器
   * TFTP Boot 網路引導
 * Scheduled Task/Job 工作排程器
-  * At 在系統上指定時間運行
+  * At 用於在指定的時間和日期計劃任務
   * Cron Unix 作業系統的基於時間的作業調度程式
   * Scheduled Task 工作排程器
   * Systemd Timers 系統定時器
@@ -310,60 +310,61 @@
   * Windows Service windwos服務
   * Launch Daemon 啟動守護進程
 * Domain Policy Modification 網域策略修改
-  * Group Policy Modification	策略修改
-  * Domain Trust Modification
-* Escape to Host
-* Event Triggered Execution	
-  * Change Default File Association
-  * Screensaver
-  * Windows Management Instrumentation Event Subscription
-  * Unix Shell Configuration Modification
-  * Trap
-  * LC_LOAD_DYLIB Addition
-  * Netsh Helper DLL
-  * Accessibility Features
-  * AppCert DLLs
-  * AppInit DLLs
-  * Application Shimming
-  * Image File Execution Options Injection
-  * PowerShell Profile
-  * Emond
-  * Component Object Model Hijacking
-* Exploitation for Privilege Escalation
-* Hijack Execution Flow
-  * DLL Search Order Hijacking
-  * DLL Side-Loading
-  * Dylib Hijacking
-  * Executable Installer File Permissions Weakness
-  * Dynamic Linker Hijacking
-  * Path Interception by PATH Environment Variable
-  * Path Interception by Search Order Hijacking
-  * Path Interception by Unquoted Path
-  * Services File Permissions Weakness
-  * Services Registry Permissions Weakness
-  * COR_PROFILER
-  * KernelCallbackTable
-* Process Injection
-  * Dynamic-link Library Injection
-  * Portable Executable Injection
-  * Thread Execution Hijacking
-  * Asynchronous Procedure Call
-  * Thread Local Storage
-  * Ptrace System Calls
-  * Proc Memory
-  * Extra Window Memory Injection
-  * Process Hollowing
-  *	Process Doppelgänging
-  *	VDSO Hijacking
-  * ListPlanting
-* Scheduled Task/Job
-  * At
-  * Cron
-  * Scheduled Task
-  * Systemd Timers
-  * Container Orchestration Job
-* Valid Accounts
-  * Default Accounts
-  * Domain Accounts
-  * Local Accounts
-  * Cloud Accounts
+  * Group Policy Modification 群組策略修改
+  * Domain Trust Modification 網域信任修改
+* Escape to Host 從主機逃離
+* Event Triggered Execution 事件觸發執行
+  * Change Default File Association 更改默認文件關聯
+  * Screensaver 螢幕保護程式
+  * Windows Management Instrumentation Event Subscription 訂閱windows 管理規範
+  * Unix Shell Configuration Modification Unix Shell 配置修改
+  * Trap 陷阱
+  * LC_LOAD_DYLIB Addition 注入LC_LOAD_DYLIB
+  * Netsh Helper DLL  Netsh 説明程式 DLL
+  * Accessibility Features 輔助功能
+  * AppCert DLLs 注入AppCert DLLs 註冊表項
+  * AppInit DLLs AppInit DLLs 註冊表項
+  * Application Shimming 應用程式填充
+  * Image File Execution Options Injection 圖像檔執行選項注入
+  * PowerShell Profile PowerShell配置檔
+  * Emond 事件監視程式守護程式 （emond）
+  * Component Object Model Hijacking 元件物件模型劫持
+* Exploitation for Privilege Escalation 利用漏洞進行特權提升
+* Hijack Execution Flow 劫持執行流程
+  * DLL Search Order Hijacking DLL搜尋目錄劫持
+  * DLL Side-Loading DLL旁側載入
+  * Dylib Hijacking Dylib(惡意動態庫)劫持
+  * Executable Installer File Permissions Weakness 可執行安裝程式檔許可權弱點
+  * Dynamic Linker Hijacking 動態連結劫持
+  * Path Interception by PATH Environment Variable 路徑環境變數的路徑攔截
+  * Path Interception by Search Order Hijacking 通過搜索命令劫持進行路徑攔截
+  * Path Interception by Unquoted Path 未加引號路徑的路徑攔截
+  * Services File Permissions Weakness 服務文件許可權弱點
+  * Services Registry Permissions Weakness 服務註冊表許可權弱點
+  * COR_PROFILER 利用COR_PROFILER環境變數來劫持載入
+  * KernelCallbackTable 內核回函表
+* Process Injection 進程注入
+  * Dynamic-link Library Injection 動態連結庫注入
+  * Portable Executable Injection 可移植可執行注入
+  * Thread Execution Hijacking 線程執行劫持
+  * Asynchronous Procedure Call 異步過程調用
+  * Thread Local Storage 線程本地存儲
+  * Ptrace System Calls 跟蹤系統調用
+  * Proc Memory 記憶歷程
+  * Extra Window Memory Injection EWM式注入
+  * Process Hollowing 創建傀儡進程
+  *	Process Doppelgänging 創建分身進程
+  *	VDSO Hijacking 虛擬動態共享物件劫持
+  * ListPlanting 清單佈局
+* Scheduled Task/Job 工作排程器
+  * At 用於在指定的時間和日期計劃任務
+  * Cron 作業系統的基於時間的作業調度程式
+  * Scheduled Task 工作排程器
+  * Systemd Timers 系統定時器 
+  * Container Orchestration Job 容器編排作業
+* Valid Accounts 有效帳號
+  * Default Accounts 默認帳號
+  * Domain Accounts 網域帳號
+  * Local Accounts 本地帳號
+  * Cloud Accounts 雲端帳號
+  ---
