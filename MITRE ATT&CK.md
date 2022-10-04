@@ -541,4 +541,64 @@
     *	Disable Crypto Hardware	禁用加密硬體
  *	XSL Script Processing  XSL檔 腳本處理
  ---
- 
+ 8.Credential Access	憑證存取
+ ====
+ * Adversary-in-the-Middle
+   * LLMNR/NBT-NS Poisoning and SMB Relay
+   * ARP Cache Poisoning
+   * DHCP Spoofing
+ *	Brute Force
+   *	Password Guessing
+   *	Password Cracking
+   *	Password Spraying
+   *	Credential Stuffing
+ *	Credentials from Password Stores
+   *	Keychain
+   *	Securityd Memory
+   *	Credentials from Web Browsers
+   *	Windows Credential Manager
+   *	Password Managers
+ *	Exploitation for Credential Access
+ *	Forced Authentication	
+ *	Forge Web Credentials
+   *	Web Cookies
+   *	SAML Tokens
+ *	Input Capture
+   *	Keylogging
+   *	GUI Input Capture
+   *	Web Portal Capture
+   *	Credential API Hooking
+ *	Modify Authentication Process
+   *	Domain Controller Authentication
+   *	Password Filter DLL
+   *	Pluggable Authentication Modules
+   *	Network Device Authentication
+   *	Reversible Encryption
+ *	Multi-Factor Authentication Interception
+ *	Multi-Factor Authentication Request Generation
+ *	Network Sniffing
+ *	OS Credential Dumping
+   *	LSASS Memory
+   *	Security Account Manager
+   *	NTDS
+   *	LSA Secrets
+   *	Cached Domain Credentials
+   *	DCSync
+   *	Proc Filesystem
+   *		/etc/passwd and /etc/shadow
+ *	Steal Application Access Token
+ *	Steal or Forge Kerberos Tickets
+   *	Golden Ticket
+   *	Silver Ticket
+   *	Kerberoasting
+   *	AS-REP Roasting
+ *	Steal Web Session Cookie
+ *	Unsecured Credentials	
+   * Credentials In Files
+   * Credentials in Registry
+   * Bash History
+   * Private Keys
+   * Cloud Instance Metadata API
+   * Group Policy Preferences
+   * Container API
+   ---	
