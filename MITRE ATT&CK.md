@@ -368,3 +368,175 @@
   * Local Accounts 本地帳號
   * Cloud Accounts 雲端帳號
   ---
+ 7.Defense Evasion 防禦逃脫
+ ===
+ * Abuse Elevation Control Mechanism
+   * Setuid and Setgid
+   * Bypass User Account Control
+   * Sudo and Sudo Caching
+   * Elevated Execution with Prompt
+ * Access Token Manipulation
+   * Token Impersonation/Theft
+   * Create Process with Token
+   * Make and Impersonate Token
+   * Parent PID Spoofing
+   * SID-History Injection
+ * BITS Jobs
+ * Build Image on Host
+ * Debugger Evasion
+ * Deobfuscate/Decode Files or Information
+ * Deploy Container
+ * Direct Volume Access
+ * Domain Policy Modification	
+   * Group Policy Modification
+   * Domain Trust Modification
+ * Execution Guardrails
+   * Environmental Keying
+ * Exploitation for Defense Evasion
+ * File and Directory Permissions Modification
+   * Windows File and Directory Permissions Modification
+   * Linux and Mac File and Directory Permissions Modification
+ * Hide Artifacts
+   * Hidden Files and Directories
+   * Hidden Users
+   * Hidden Window
+   * NTFS File Attributes
+   * Hidden File System
+   * Run Virtual Instance
+   * VBA Stomping
+   * Email Hiding Rules
+   * Resource Forking
+   * Process Argument Spoofing 
+ * Hijack Execution Flow
+   * DLL Search Order Hijacking
+   * DLL Side-Loading
+   * Dylib Hijacking
+   * Executable Installer File Permissions Weakness
+   * Dynamic Linker Hijacking
+   * Path Interception by PATH Environment Variable
+   * Path Interception by Search Order Hijacking
+   * Path Interception by Unquoted Path
+   * Services File Permissions Weakness
+   * Services Registry Permissions Weakness
+   * COR_PROFILER
+   * KernelCallbackTable
+ * Impair Defenses
+   * Disable or Modify Tools
+   * Disable Windows Event Logging
+   * Impair Command History Logging
+   * Disable or Modify System Firewall
+   * Indicator Blocking
+   * Disable or Modify Cloud Firewall
+   * Disable Cloud Logs
+   * Safe Mode Boot
+   * Downgrade Attack
+ * Indicator Removal on Host
+   * Clear Windows Event Logs
+   * Clear Linux or Mac System Logs
+   * Clear Command History
+   * File Deletion
+   * Network Share Connection Removal
+   * Timestomp 
+ * Indirect Command Execution
+ * Masquerading
+   * Invalid Code Signature
+   * Right-to-Left Override
+   * Rename System Utilities
+   * Masquerade Task or Service
+   * Match Legitimate Name or Location
+   * Space after Filename
+   * Double File Extension
+ *	Modify Authentication Process
+   *	Domain Controller Authentication
+   *	Password Filter DLL
+   *	Pluggable Authentication Modules
+   *	Network Device Authentication
+   *	Reversible Encryption
+ *	Modify Cloud Compute Infrastructure
+   *	Create Snapshot
+   *	Create Cloud Instance
+   *	Delete Cloud Instance
+   *	Revert Cloud Instance
+ *	Modify Registry
+ *	Modify System Image
+   * Patch System Image
+   * Downgrade System Image
+ *	Network Boundary Bridging
+   *	Network Address Translation Traversal
+ *	Obfuscated Files or Information
+   *	Binary Padding
+   *	Software Packing
+   *	Steganography
+   *	Compile After Delivery
+   *	Indicator Removal from Tools
+   *	HTML Smuggling
+ *	Plist File Modification
+ *	Pre-OS Boot
+   *	System Firmware
+   *	Component Firmware
+   *	Bootkit
+   * ROMMONkit
+   * TFTP Boot
+ *	Process Injection
+   *	Dynamic-link Library Injection
+   *	Portable Executable Injection	
+   *	Thread Execution Hijacking
+   *	Asynchronous Procedure Call
+   *	Thread Local Storage
+   *	Ptrace System Calls
+   *	Proc Memory
+   *	Extra Window Memory Injection
+   *	Process Hollowing
+   *	Process Doppelgänging
+   *	VDSO Hijacking
+   *	ListPlanting
+ *	Reflective Code Loading
+ *	Rogue Domain Controller
+ *	Rootkit
+ *	Subvert Trust Controls
+   *	Gatekeeper Bypass
+   *	Code Signing
+   *	SIP and Trust Provider Hijacking
+   *	Install Root Certificate
+   *	Mark-of-the-Web Bypass
+   *	Code Signing Policy Modification 
+ *	System Binary Proxy Execution
+   *	Compiled HTML File
+   *	Control Panel
+   *	CMSTP
+   *	InstallUtil
+   *	Mshta
+   *	Msiexec
+   *	Odbcconf
+   *	Regsvcs/Regasm
+   *	Regsvr32
+   *	Rundll32
+   *	Verclsid
+   *	Mavinject
+   *	MMC
+ *	System Script Proxy Execution
+   *	PubPrn
+ *	Template Injection
+ *	Traffic Signaling
+   *	Port Knocking
+ *	Trusted Developer Utilities Proxy Execution
+   *	MSBuild
+ *	Unused/Unsupported Cloud Regions
+ *	Use Alternate Authentication Material
+   *	Application Access Token
+   *	Pass the Hash
+   *	Pass the Ticket
+   *	Web Session Cookie
+ *	Valid Accounts
+   *	Default Accounts
+   *	Domain Accounts
+   *	Local Accounts
+   *	Cloud Accounts
+ *	Virtualization/Sandbox Evasion
+   *	System Checks
+   *	User Activity Based Checks
+   * Time Based Evasion 
+ *	Weaken Encryption
+   *	Reduce Key Space
+   *	Disable Crypto Hardware	
+ *	XSL Script Processing
