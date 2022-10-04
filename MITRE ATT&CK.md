@@ -447,96 +447,96 @@
    * Space after Filename
    * Double File Extension
  *	Modify Authentication Process
-   *	Domain Controller Authentication
-   *	Password Filter DLL
-   *	Pluggable Authentication Modules
-   *	Network Device Authentication
-   *	Reversible Encryption
+    *	Domain Controller Authentication
+    *	Password Filter DLL
+    *	Pluggable Authentication Modules
+    *	Network Device Authentication
+    *	Reversible Encryption
  *	Modify Cloud Compute Infrastructure
-   *	Create Snapshot
-   *	Create Cloud Instance
-   *	Delete Cloud Instance
-   *	Revert Cloud Instance
+    *	Create Snapshot
+    *	Create Cloud Instance
+    *	Delete Cloud Instance
+    *	Revert Cloud Instance
  *	Modify Registry
  *	Modify System Image
-   * Patch System Image
-   * Downgrade System Image
- *	Network Boundary Bridging
-   *	Network Address Translation Traversal
+    * Patch System Image
+    * Downgrade System Image
+    * Network Boundary Bridging
+    *	Network Address Translation Traversal
  *	Obfuscated Files or Information
-   *	Binary Padding
-   *	Software Packing
-   *	Steganography
-   *	Compile After Delivery
-   *	Indicator Removal from Tools
-   *	HTML Smuggling
+    *	Binary Padding
+    *	Software Packing
+    *	Steganography
+    *	Compile After Delivery
+    *	Indicator Removal from Tools
+    *	HTML Smuggling
  *	Plist File Modification
  *	Pre-OS Boot
-   *	System Firmware
-   *	Component Firmware
-   *	Bootkit
-   * ROMMONkit
-   * TFTP Boot
+    *	System Firmware
+    *	Component Firmware
+    *	Bootkit
+    * ROMMONkit
+    * TFTP Boot
  *	Process Injection
-   *	Dynamic-link Library Injection
-   *	Portable Executable Injection	
-   *	Thread Execution Hijacking
-   *	Asynchronous Procedure Call
-   *	Thread Local Storage
-   *	Ptrace System Calls
-   *	Proc Memory
-   *	Extra Window Memory Injection
-   *	Process Hollowing
-   *	Process Doppelgänging
-   *	VDSO Hijacking
-   *	ListPlanting
+    *	Dynamic-link Library Injection
+    *	Portable Executable Injection	
+    *	Thread Execution Hijacking
+    *	Asynchronous Procedure Call
+    *	Thread Local Storage
+    *	Ptrace System Calls
+    *	Proc Memory
+    *	Extra Window Memory Injection
+    *	Process Hollowing
+    *	Process Doppelgänging
+    *	VDSO Hijacking
+    *	ListPlanting
  *	Reflective Code Loading
  *	Rogue Domain Controller
  *	Rootkit
  *	Subvert Trust Controls
-   *	Gatekeeper Bypass
-   *	Code Signing
-   *	SIP and Trust Provider Hijacking
-   *	Install Root Certificate
-   *	Mark-of-the-Web Bypass
-   *	Code Signing Policy Modification 
+    *	Gatekeeper Bypass
+    *	Code Signing
+    *	SIP and Trust Provider Hijacking
+    *	Install Root Certificate
+    *	Mark-of-the-Web Bypass
+    *	Code Signing Policy Modification 
  *	System Binary Proxy Execution
-   *	Compiled HTML File
-   *	Control Panel
-   *	CMSTP
-   *	InstallUtil
-   *	Mshta
-   *	Msiexec
-   *	Odbcconf
-   *	Regsvcs/Regasm
-   *	Regsvr32
-   *	Rundll32
-   *	Verclsid
-   *	Mavinject
-   *	MMC
+    *	Compiled HTML File
+    *	Control Panel
+    *	CMSTP
+    *	InstallUtil
+    *	Mshta
+    *	Msiexec
+    *	Odbcconf
+    *	Regsvcs/Regasm
+    *	Regsvr32
+    *	Rundll32
+    *	Verclsid
+    *	Mavinject
+    *	MMC
  *	System Script Proxy Execution
-   *	PubPrn
+    *	PubPrn
  *	Template Injection
  *	Traffic Signaling
-   *	Port Knocking
+    *	Port Knocking
  *	Trusted Developer Utilities Proxy Execution
-   *	MSBuild
+    *	MSBuild
  *	Unused/Unsupported Cloud Regions
  *	Use Alternate Authentication Material
-   *	Application Access Token
-   *	Pass the Hash
-   *	Pass the Ticket
-   *	Web Session Cookie
+    *	Application Access Token
+    *	Pass the Hash
+    *	Pass the Ticket
+    *	Web Session Cookie
  *	Valid Accounts
-   *	Default Accounts
-   *	Domain Accounts
-   *	Local Accounts
-   *	Cloud Accounts
+    *	Default Accounts
+    *	Domain Accounts
+    *	Local Accounts
+    *	Cloud Accounts
  *	Virtualization/Sandbox Evasion
-   *	System Checks
-   *	User Activity Based Checks
-   * Time Based Evasion 
+    *	System Checks
+    *	User Activity Based Checks
+    * Time Based Evasion 
  *	Weaken Encryption
-   *	Reduce Key Space
-   *	Disable Crypto Hardware	
+    *	Reduce Key Space
+    *	Disable Crypto Hardware	
  *	XSL Script Processing
