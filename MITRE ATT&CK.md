@@ -143,7 +143,7 @@
   * XPC Services 管理安全的進程間通訊 服務
 * Native API 原生API
 * Scheduled Task/Job 工作排程器
-  * At [海斯命令集](https://zh.m.wikipedia.org/zh-tw/%E6%B5%B7%E6%96%AF%E5%91%BD%E4%BB%A4%E9%9B%86)
+  * At 在系統上指定時間運行
   * Cron [任務管理系統](https://zh.wikipedia.org/zh-tw/Cron)
   * Scheduled Task 工作排程器
   * Systemd Timers 系統計時器
@@ -230,31 +230,31 @@
   *	Services Registry Permissions Weakness 服務註冊表許可權弱點
   *	COR_PROFILER COR_PROFILER環境變數劫持載入
   *	KernelCallbackTable 內核回乎表 
-* Implant Internal Image	
-* Modify Authentication Process
-  * Domain Controller Authentication
-  * Password Filter DLL
-  * Pluggable Authentication Modules
-  * Network Device Authentication
-  * Reversible Encryption
-* Office Application Startup
-  * Office Template Macros
-  * Office Test
-  * Outlook Forms
-  * Outlook Home Page
-  * Outlook Rules
-  * Add-ins
-* Pre-OS Boot
-  * System Firmware
-  * Component Firmware
-  * Bootkit
-  * ROMMONkit
-  * TFTP Boot
-* Scheduled Task/Job
-  * At
-  * Cron
-  * Scheduled Task
-  * Systemd Timers
+* Implant Internal Image 注入圖片內部
+* Modify Authentication Process 修改身分驗證過程
+  * Domain Controller Authentication 網域控制身分驗證
+  * Password Filter DLL 密碼過濾器DLL檔
+  * Pluggable Authentication Modules 可插拔身分驗證模組
+  * Network Device Authentication 網路裝置身分驗證
+  * Reversible Encryption 可逆加密
+* Office Application Startup Office 應用程式啟動
+  * Office Template Macros Office模板巨集
+  * Office Test office 測試
+  * Outlook Forms Outlook 表格
+  * Outlook Home Page outlook 首頁
+  * Outlook Rules outlook規則
+  * Add-ins 加載項
+* Pre-OS Boot 作業系統啟動前
+  * System Firmware 系統韌體 
+  * Component Firmware 元件韌體
+  * Bootkit 引導套件
+  * ROMMONkit  ROM監視器
+  * TFTP Boot 網路引導
+* Scheduled Task/Job 工作排程器
+  * At 在系統上指定時間運行
+  * Cron Unix 作業系統的基於時間的作業調度程式
+  * Scheduled Task 工作排程器
+  * Systemd Timers 系統定時器
   * Container Orchestration Job	
 * Server Software Component
   * SQL Stored Procedures
