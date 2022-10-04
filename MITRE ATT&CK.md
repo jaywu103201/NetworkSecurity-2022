@@ -126,14 +126,35 @@
 4.Execution 執行
 ===
 * Command and Scripting Interpreter
+  * PowerShell
+  * AppleScript	
+  * Windows Command Shell
+  * Unix Shell
+  * Visual Basic
+  * Python
+  * JavaScript
+  * Network Device CLI 
 * Container Administration Command
 * Deploy Container
 * Exploitation for Client Execution
 * Inter-Process Communication
+  * Component Object Model
+  * Dynamic Data Exchange
+  * XPC Services
 * Native API
 * Scheduled Task/Job
+  * At
+  * Cron
+  * Scheduled Task
+  * Systemd Timers
+  * Container Orchestration Job
 * Shared Modules
 * Software Deployment Tools
 * System Services
+  * Launchctl
+  * Service Execution
 * User Execution
+  * Malicious Link
+  * Malicious File
+  * Malicious Image
 * Windows Management Instrumentation
