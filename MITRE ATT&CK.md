@@ -756,20 +756,20 @@
  13.Exfiltration 滲出
  ===
 * Automated Exfiltration
-   * Traffic Duplication 
+     * Traffic Duplication 
 * Data Transfer Size Limits
 * Exfiltration Over Alternative Protocol
-   * Exfiltration Over Symmetric Encrypted Non-C2 Protocol
-   * Exfiltration Over Asymmetric Encrypted Non-C2 Protocol
-   * Exfiltration Over Unencrypted Non-C2 Protocol
+     * Exfiltration Over Symmetric Encrypted Non-C2 Protocol
+     * Exfiltration Over Asymmetric Encrypted Non-C2 Protocol
+     * Exfiltration Over Unencrypted Non-C2 Protocol
 * Exfiltration Over C2 Channel
 * Exfiltration Over Other Network Medium
-  * Exfiltration Over Bluetooth
+    * Exfiltration Over Bluetooth
 *	Exfiltration Over Physical Medium
-  *	Exfiltration over USB
+    *	Exfiltration over USB
 *	Exfiltration Over Web Service
-  *	Exfiltration to Code Repository
-  *	Exfiltration to Cloud Storage
+    *	Exfiltration to Code Repository
+    *	Exfiltration to Cloud Storage
 *	Scheduled Transfer
 *	Transfer Data to Cloud Account
  
