@@ -714,44 +714,44 @@
 ---
  12.Command and Control 命令與控制
  ===
- * Application Layer Protocol
-   * Web Protocols
-   * File Transfer Protocols
-   * Mail Protocols
-   * DNS
- * Communication Through Removable Media
- * Data Encoding
-     * Standard Encoding
-     * Non-Standard Encoding
- * Data Obfuscation
-     * Junk Data
+ * Application Layer Protocol 應用層協定
+   * Web Protocols 網路協定
+   * File Transfer Protocols 	檔案傳輸協定
+   * Mail Protocols 電子郵件協定
+   * DNS 網域名稱系統
+ * Communication Through Removable Media 通過可移動媒體進行通信
+ * Data Encoding 數據編碼
+     * Standard Encoding 標準編碼
+     * Non-Standard Encoding 非標準編碼
+ * Data Obfuscation 數據混淆
+     * Junk Data 垃圾數據 隱寫術
      * Steganography
-     * Protocol Impersonation
- * Dynamic Resolution
-     * Fast Flux DNS
-     * Domain Generation Algorithms
-     * DNS Calculation
- * Encrypted Channel
-     * Symmetric Cryptography
-     * Asymmetric Cryptography
- * Fallback Channels
- * Ingress Tool Transfer
- *	Multi-Stage Channels
- *	Non-Application Layer Protocol
- *	Non-Standard Port
- *	Protocol Tunneling
- *	Proxy
-     * Internal Proxy
-     * External Proxy
-     * Multi-hop Proxy
-     * Domain Fronting	
- *	Remote Access Software
- *	Traffic Signaling
-     *	Port Knocking
- *	Web Service
-     *	Dead Drop Resolver
-     *	Bidirectional Communication
-     *	One-Way Communication
+     * Protocol Impersonation 類比協定
+ * Dynamic Resolution 動態解析
+     * Fast Flux DNS 快速通量網域名稱系統
+     * Domain Generation Algorithms 網域生成演算法
+     * DNS Calculation 網域名稱系統計算
+ * Encrypted Channel 加密通道
+     * Symmetric Cryptography  對稱加密
+     * Asymmetric Cryptography 非對稱加密
+ * Fallback Channels 倒退通道
+ * Ingress Tool Transfer 入口傳輸工具
+ *	Multi-Stage Channels 多級通道
+ *	Non-Application Layer Protocol 非應用層協定
+ *	Non-Standard Port 非標準埠
+ *	Protocol Tunneling 協定隧道
+ *	Proxy 代理
+     * Internal Proxy 	內部代理
+     * External Proxy 外部代理
+     * Multi-hop Proxy 多跳代理
+     * Domain Fronting 網域名稱前置
+ *	Remote Access Software 遠端存取軟體
+ *	Traffic Signaling 交通信號
+     *	Port Knocking 敲端口
+ *	Web Service 網路服務
+     *	Dead Drop Resolver 死投解析器
+     *	Bidirectional Communication 雙向通訊
+     *	One-Way Communication 單向通訊
  ---
  13.Exfiltration 滲出
  ===
