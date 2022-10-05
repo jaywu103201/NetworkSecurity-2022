@@ -688,27 +688,27 @@
 *	Clipboard Data
 *	Data from Cloud Storage Object
 *	Data from Configuration Repository
-   *	SNMP (MIB Dump)
-   *	Network Device Configuration Dump
+    *	SNMP (MIB Dump)
+    *	Network Device Configuration Dump
 *	Data from Information Repositories
-   *	Confluence
-   *	Sharepoint
-   *	Code Repositories
+    *	Confluence
+    *	Sharepoint
+    *	Code Repositories
 *	Data from Local System
 *	Data from Network Shared Drive
 *	Data from Removable Media
 *	Data Staged
-   *	Local Data Staging
-   *	Remote Data Staging
+    *	Local Data Staging
+    *	Remote Data Staging
 *	Email Collection
-   *	Local Email Collection
-   *	Remote Email Collection
-   *	Email Forwarding Rule
+    *	Local Email Collection
+    *	Remote Email Collection
+    *	Email Forwarding Rule
 *	Input Capture
-   *	Keylogging
-   *	GUI Input Capture
-   *	Web Portal Capture
-   *	Credential API Hooking
+    *	Keylogging
+    *	GUI Input Capture
+    *	Web Portal Capture
+    *	Credential API Hooking
 *	Screen Capture
 *	Video Capture
 ---
