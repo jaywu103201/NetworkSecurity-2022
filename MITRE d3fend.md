@@ -5,7 +5,8 @@
 * 3.Isolate
 * 4.Deceive
 * 5.Evict
-==
+
+
 1.Harden
 ==
 * Application Hardening
