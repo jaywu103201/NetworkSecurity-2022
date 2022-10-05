@@ -712,4 +712,53 @@
 *	Screen Capture 螢幕捕捉
 *	Video Capture 影片捕捉
 ---
+ 12.Command and Control 命令與控制
+ ===
+ * Application Layer Protocol
+   * Web Protocols
+   * File Transfer Protocols
+   * Mail Protocols
+   * DNS
+ * Communication Through Removable Media
+ * Data Encoding
+   * Standard Encoding
+   * Non-Standard Encoding
+ * Data Obfuscation
+   * Junk Data
+   * Steganography
+   * Protocol Impersonation
+ * Dynamic Resolution
+   * Fast Flux DNS
+   * Domain Generation Algorithms
+   * DNS Calculation
+ * Encrypted Channel
+   * Symmetric Cryptography
+   * Asymmetric Cryptography
+ * Fallback Channels
+ * Ingress Tool Transfer
+ *	Multi-Stage Channels
+ *	Non-Application Layer Protocol
+ *	Non-Standard Port
+ *	Protocol Tunneling
+ *	Proxy
+   * Internal Proxy
+   * External Proxy
+   * Multi-hop Proxy
+   * Domain Fronting	
+ *	Remote Access Software
+ *	Traffic Signaling
+   *	Port Knocking
+ *	Web Service
+   *	Dead Drop Resolver
+   *	Bidirectional Communication
+   *	One-Way Communication
+ ---
+ 13.Exfiltration 滲出
+ ===
 
+ 
+ ---
+ 14.Impact 衝擊
+ ===
+
+ ---
