@@ -753,53 +753,53 @@
      *	Bidirectional Communication 雙向通訊
      *	One-Way Communication 單向通訊
  ---
- 13.Exfiltration 滲出
+ 13.Exfiltration 滲漏
  ===
-* Automated Exfiltration
-     * Traffic Duplication 
-* Data Transfer Size Limits
-* Exfiltration Over Alternative Protocol
-     * Exfiltration Over Symmetric Encrypted Non-C2 Protocol
-     * Exfiltration Over Asymmetric Encrypted Non-C2 Protocol
-     * Exfiltration Over Unencrypted Non-C2 Protocol
-* Exfiltration Over C2 Channel
-* Exfiltration Over Other Network Medium
-    * Exfiltration Over Bluetooth
-*	Exfiltration Over Physical Medium
-    *	Exfiltration over USB
-*	Exfiltration Over Web Service
-    *	Exfiltration to Code Repository
-    *	Exfiltration to Cloud Storage
-*	Scheduled Transfer
-*	Transfer Data to Cloud Account
+* Automated Exfiltration 自動滲漏
+     * Traffic Duplication  流量重複
+* Data Transfer Size Limits 	傳輸數據大小限制
+* Exfiltration Over Alternative Protocol 通過替代協議進行滲漏
+     * Exfiltration Over Symmetric Encrypted Non-C2 Protocol 通過對稱加密非 C2 協議進行外洩
+     * Exfiltration Over Asymmetric Encrypted Non-C2 Protocol 	通過非對稱加密非 C2 協議進行外洩
+     * Exfiltration Over Unencrypted Non-C2 Protocol 通過未加密的非 C2 協議進行外洩
+* Exfiltration Over C2 Channel  	通過 C2 通道滲出
+* Exfiltration Over Other Network Medium 通過其他網路媒介滲漏
+    * Exfiltration Over Bluetooth 通過藍牙滲漏
+*	Exfiltration Over Physical Medium 	物理介質外滲
+    *	Exfiltration over USB 透過USB進行滲漏
+*	Exfiltration Over Web Service 通過 Web 服務進行外洩
+    *	Exfiltration to Code Repository 滲漏到代碼存儲庫
+    *	Exfiltration to Cloud Storage 滲透到雲端存儲
+*	Scheduled Transfer 定期接送
+*	Transfer Data to Cloud Account 將數據傳輸到雲端帳戶
  
  ---
  14.Impact 衝擊
  ===
-* Account Access Removal
-* Data Destruction
-* Data Encrypted for Impact
-* Data Manipulation
-   * Stored Data Manipulation
-   * Transmitted Data Manipulation
-   *	Runtime Data Manipulation
-* Defacement
-   * Internal Defacement
-   * External Defacement
-* Disk Wipe
-   *	Disk Content Wipe
-   *	Disk Structure Wipe 
-* Endpoint Denial of Service
-   * OS Exhaustion Flood
-   * Service Exhaustion Flood
-   * Application Exhaustion Flood
-   * Application or System Exploitation
-* Firmware Corruption
-* Inhibit System Recovery
-* Network Denial of Service
-  * Direct Network Flood
-  * Reflection Amplification
-* Resource Hijacking
-* Service Stop
-* System Shutdown/Reboot
+* Account Access Removal 	帳戶訪問刪除
+* Data Destruction 數據銷毀
+* Data Encrypted for Impact 數據經過加密以產生衝擊
+* Data Manipulation 數據操縱
+   * Stored Data Manipulation 存儲的數據操縱
+   * Transmitted Data Manipulation 傳輸數據操縱
+   *	Runtime Data Manipulation  運行時數據操縱
+* Defacement 竄改
+   * Internal Defacement 內部竄改
+   * External Defacement 外部竄改
+* Disk Wipe 硬碟抹除
+   *	Disk Content Wipe 磁碟內容抹除
+   *	Disk Structure Wipe  磁碟結構抹除
+* Endpoint Denial of Service 	端點拒絕服務
+   * OS Exhaustion Flood 作業系統資源氾濫
+   * Service Exhaustion Flood 服務資源氾濫
+   * Application Exhaustion Flood 應用程式資源氾濫
+   * Application or System Exploitation 應用程式或系統開發
+* Firmware Corruption 韌體損壞
+* Inhibit System Recovery 關閉系統恢復
+* Network Denial of Service 網路拒絕服務
+  * Direct Network Flood 	直接網路流量氾濫
+  * Reflection Amplification 放大反射
+* Resource Hijacking 資源劫持
+* Service Stop 停止服務
+* System Shutdown/Reboot 系統關閉/重啟
  ---
