@@ -648,3 +648,5 @@
     *	User Activity Based Checks 基於用戶活動的檢查
     *	Time Based Evasion 	基於時間的規避
 ---
+ 10.Lateral Movement	橫向移動
+===
