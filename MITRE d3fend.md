@@ -1,2 +1,2 @@
-(D3FEND™)[https://d3fend.mitre.org/]
-
+[D3FEND™](https://d3fend.mitre.org/)
+==
