@@ -545,7 +545,7 @@
  ====
  * Adversary-in-the-Middle 中間人攻擊
     * LLMNR/NBT-NS Poisoning and SMB Relay  LLMNR/NBT-NS中毒與SMB中繼
-    * ARP Cache Poisoning  ARP毒化
+    * ARP Cache Poisoning  ARP快取毒化
     * DHCP Spoofing DHCP欺騙
  *	Brute Force 暴力破解
     *	Password Guessing 密碼猜測
@@ -674,41 +674,42 @@
  ---		
 11.Collection 收集
 ===
-* Adversary-in-the-Middle
-   * LLMNR/NBT-NS Poisoning and SMB Relay
-   * ARP Cache Poisoning
-   * DHCP Spoofing
-* Archive Collected Data
-   * Archive via Utility
-   * Archive via Library
-   * Archive via Custom Method
-* Audio Capture
-*	Automated Collection
-*	Browser Session Hijacking
-*	Clipboard Data
-*	Data from Cloud Storage Object
-*	Data from Configuration Repository
-    *	SNMP (MIB Dump)
-    *	Network Device Configuration Dump
-*	Data from Information Repositories
-    *	Confluence
-    *	Sharepoint
-    *	Code Repositories
-*	Data from Local System
-*	Data from Network Shared Drive
-*	Data from Removable Media
-*	Data Staged
-    *	Local Data Staging
-    *	Remote Data Staging
-*	Email Collection
-    *	Local Email Collection
-    *	Remote Email Collection
-    *	Email Forwarding Rule
-*	Input Capture
-    *	Keylogging
-    *	GUI Input Capture
-    *	Web Portal Capture
-    *	Credential API Hooking
-*	Screen Capture
-*	Video Capture
+* Adversary-in-the-Middle 中間人攻擊
+   * LLMNR/NBT-NS Poisoning and SMB Relay  LLMNR/NBT-NS中毒與SMB中繼
+   * ARP Cache Poisoning ARP快取毒化
+   * DHCP Spoofing DHCP欺騙
+* Archive Collected Data 收集檔案數據
+   * Archive via Utility 通過實用程式存檔
+   * Archive via Library 通過函式庫存檔
+   * Archive via Custom Method 通過自定義方法存檔
+* Audio Capture 音訊捕捉
+*	Automated Collection 自動化收集
+*	Browser Session Hijacking 瀏覽器會話劫持
+*	Clipboard Data 剪貼簿數據
+*	Data from Cloud Storage Object 來自雲端儲存的數據 
+*	Data from Configuration Repository 來自組態儲存庫的數據
+    *	SNMP (MIB Dump) 簡單網路管理協定/管理資訊庫 （MIB）
+    *	Network Device Configuration Dump 網路設備組態轉儲
+*	Data from Information Repositories 來自資訊儲存庫的數據
+    *	Confluence 合流
+    *	Sharepoint 共享點
+    *	Code Repositories 程式碼儲存庫
+*	Data from Local System 來自本地系統的數據
+*	Data from Network Shared Drive 來自網路共享驅動的數據
+*	Data from Removable Media 	來自可移動媒體的數據
+*	Data Staged 暫存數據 
+    *	Local Data Staging  本地數據暫存 
+    *	Remote Data Staging 遠端數據暫存
+*	Email Collection 	電子郵件收藏
+    *	Local Email Collection 本地電子郵件收藏
+    *	Remote Email Collection 遠端電子郵件收藏
+    *	Email Forwarding Rule 電子信箱轉發規則
+*	Input Capture 輸入捕捉
+    *	Keylogging 鍵盤記錄
+    *	GUI Input Capture 圖形使用者介面輸入捕捉
+    *	Web Portal Capture 網頁入口捕捉
+    *	Credential API Hooking 憑據介面掛鉤
+*	Screen Capture 螢幕捕捉
+*	Video Capture 影片捕捉
 ---
+
