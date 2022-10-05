@@ -721,19 +721,19 @@
    * DNS
  * Communication Through Removable Media
  * Data Encoding
-   * Standard Encoding
-   * Non-Standard Encoding
+     * Standard Encoding
+     * Non-Standard Encoding
  * Data Obfuscation
-   * Junk Data
-   * Steganography
-   * Protocol Impersonation
+     * Junk Data
+     * Steganography
+     * Protocol Impersonation
  * Dynamic Resolution
-   * Fast Flux DNS
-   * Domain Generation Algorithms
-   * DNS Calculation
+     * Fast Flux DNS
+     * Domain Generation Algorithms
+     * DNS Calculation
  * Encrypted Channel
-   * Symmetric Cryptography
-   * Asymmetric Cryptography
+     * Symmetric Cryptography
+     * Asymmetric Cryptography
  * Fallback Channels
  * Ingress Tool Transfer
  *	Multi-Stage Channels
@@ -741,17 +741,17 @@
  *	Non-Standard Port
  *	Protocol Tunneling
  *	Proxy
-   * Internal Proxy
-   * External Proxy
-   * Multi-hop Proxy
-   * Domain Fronting	
+     * Internal Proxy
+     * External Proxy
+     * Multi-hop Proxy
+     * Domain Fronting	
  *	Remote Access Software
  *	Traffic Signaling
-   *	Port Knocking
+     *	Port Knocking
  *	Web Service
-   *	Dead Drop Resolver
-   *	Bidirectional Communication
-   *	One-Way Communication
+     *	Dead Drop Resolver
+     *	Bidirectional Communication
+     *	One-Way Communication
  ---
  13.Exfiltration 滲出
  ===
