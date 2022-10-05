@@ -650,3 +650,25 @@
 ---
  10.Lateral Movement	橫向移動
 ===
+* Exploitation of Remote Services
+* Internal Spearphishing
+* Lateral Tool Transfer
+* Remote Service Session Hijacking
+  * SSH Hijacking
+  * RDP Hijacking
+* Remote Services
+  * Remote Desktop Protocol
+  * SMB/Windows Admin Shares
+  * Distributed Component Object Model
+  * SSH
+  * VNC
+  * Windows Remote Management
+* Replication Through Removable Media
+* Software Deployment Tools
+* Taint Shared Content
+* Use Alternate Authentication Material
+  * Application Access Token
+  * Pass the Hash
+  * Pass the Ticket
+  * Web Session Cookie
+ ---		
