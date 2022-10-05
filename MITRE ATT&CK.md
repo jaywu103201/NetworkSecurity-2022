@@ -650,25 +650,25 @@
 ---
  10.Lateral Movement	橫向移動
 ===
-* Exploitation of Remote Services
-* Internal Spearphishing
-* Lateral Tool Transfer
-* Remote Service Session Hijacking
-  * SSH Hijacking
-  * RDP Hijacking
-* Remote Services
-  * Remote Desktop Protocol
-  * SMB/Windows Admin Shares
-  * Distributed Component Object Model
-  * SSH
-  * VNC
-  * Windows Remote Management
-* Replication Through Removable Media
-* Software Deployment Tools
-* Taint Shared Content
-* Use Alternate Authentication Material
-  * Application Access Token
-  * Pass the Hash
-  * Pass the Ticket
-  * Web Session Cookie
+* Exploitation of Remote Services 利用遠端服務
+* Internal Spearphishing 內部魚叉式網路釣魚
+* Lateral Tool Transfer 橫向工具轉移
+* Remote Service Session Hijacking 遠端服務會話劫持
+  * SSH Hijacking Secure Shell劫持
+  * RDP Hijacking 遠端桌面協定(RDP)劫持
+* Remote Services 遠端服務
+  * Remote Desktop Protocol 遠端桌面協定
+  * SMB/Windows Admin Shares 伺服器消息塊(SMB)/windows管理員共享
+  * Distributed Component Object Model 分散式元件物件模型
+  * SSH Secure Shell一種加密的網路傳輸協定
+  * VNC  RFB協定的螢幕畫面分享及遠端操作軟體
+  * Windows Remote Management windows遠端管理
+* Replication Through Removable Media 通過可移動媒體複製
+* Software Deployment Tools 軟體部署工具
+* Taint Shared Content 污點共享內容
+* Use Alternate Authentication Material 使用備用驗證身分資訊
+  * Application Access Token 應用程式認證令牌
+  * Pass the Hash 透過哈希值
+  * Pass the Ticket 透過票根
+  * Web Session Cookie 網頁會話cookie
  ---		
