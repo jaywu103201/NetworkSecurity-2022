@@ -33,3 +33,4 @@ git clone https://github.com/vulhub/vulhub
 ```
 # 環境建置 SprintfCore0day
 # [SpringCore0day](https://github.com/craig/SpringCore0day)
+## [【學習分享】cve-2022-22965漏洞複現及簡單介紹](https://www.bilibili.com/video/BV1W34y1s7ff/)
