@@ -18,6 +18,8 @@ docker version   //查看docker版本資訊
 docker ps  查看容器
  
 docker  images   查看已有的鏡像
+
+docker stop {環境ID}
 ```
 # 3.Docker安裝完成後要安裝 compose
 ```
@@ -34,3 +36,4 @@ git clone https://github.com/vulhub/vulhub
 # 環境建置 SprintfCore0day
 # [SpringCore0day](https://github.com/craig/SpringCore0day)
 ## [【學習分享】cve-2022-22965漏洞複現及簡單介紹](https://www.bilibili.com/video/BV1W34y1s7ff/)
+
