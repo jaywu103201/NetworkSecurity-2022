@@ -1,0 +1,113 @@
+```
+/*
+ * Working as Soft AP and Station simultaneously with WiFi events
+ */
+#include <WiFi.h>
+#include <WebServer.h>
+const char* ssid = "LAB_I3301";
+const char* password =  "bdt4fC2oZc";
+WebServer server(80);
+uint8_t LED1pin =4;
+bool LED1status = LOW;
+uint8_t LED2pin =5;
+bool LED2status = LOW;
+
+void setup() {
+ 
+  Serial.begin(115200);
+  delay(100);
+  pinMode(LED1pin,OUTPUT);
+  pinMode(LED2pin,OUTPUT);
+  
+  Serial.println("Connecting to ");
+  Serial.println(ssid);
+ 
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED){
+    delay(1000);
+    Serial.print(".");
+    }
+    Serial.println("");
+    Serial.println("WiFi Connected..!");
+    Serial.print("Got IP:");
+
+    server.on("/",handle_OnConnect);
+    server.on("/led1on",handle_led1on);
+    server.on("/led1off",handle_led1off);
+    server.on("/led2on",handle_led2on);
+    server.on("/led2off",handle_led2off);
+    server.onNotFound(handel_NotFound);
+
+    server.begin();
+    Serial.println("HTTP server started");
+      
+    
+}
+ 
+void loop() {
+  server.handleClient();
+  if(LED1status)
+  {digitalWrite(LED1pin,HIGH);}
+  else
+  {digitalWrite(LED1pin,LOW);}
+   if(LED2status)
+  {digitalWrite(LED2pin,HIGH);}
+  else
+  {digitalWrite(LED2pin,LOW);}
+  }
+
+ void handle_OnConnect(){
+  LED1status =LOW;
+  LED2status =LOW;
+  Serial.println("GPI04 Status: OFF | GPI05 Statuse : OFF");
+  server.send(200, "text/html", SendHTML(LED1status,LED2status));
+ }
+
+ void handle_led1on(){
+  LED1status = HIGH;
+  Serial.println("GPI04 Status: ON");
+  server.send(200, "text/html", SendHTML(true,LED2status));
+ }
+
+void handle_led1off(){
+    LED1status = LOW;
+  Serial.println("GPI04 Status: OFF");
+  server.send(200, "text/html", SendHTML(false,LED2status));
+}
+ void handle_led2on(){
+  LED2status = HIGH;
+  Serial.println("GPI05 Status: ON");
+  server.send(200, "text/html", SendHTML(LED1status,true));
+ }
+
+void handle_led2off(){
+    LED2status = LOW;
+  Serial.println("GPI05 Status: OFF");
+  server.send(200, "text/html", SendHTML(LED1status,false));
+}
+
+void handel_NotFound(){
+  server.send(404,"text/plain","Not Found");
+}
+
+String SendHTML(uint8_t led1stat, uint8_t led2stat){
+  String ptr = "<!DOCTYPE html> <html>\n";
+  ptr+="<head><meta name=\"viewport\" content=\"width=device-width,inital-scale=1.0,user-scalable=no\">\n";
+  ptr+="<title>LED Control</title>\n";
+  ptr+="<style>html {font-family: Helvetica; display: inline-block; margin: 0px auto; text-align; cnter;}\n";
+  ptr+="body{margin-top: 50px;} h1 {color: #444444;margin:50px auto 30px;} h3 {color: #444444;margin-bottom: 50px;}\n";
+  ptr+=".button {display: block:width: 80px;background-color: #3498db;border: none;color: white;padding: 13px 30px;}\n";
+  ptr+=".button {text-decoration: none;font-size: 25px;margin: 0px auto 35px;cursor: pointer;border-radiuse: 4px;}\n";
+  ptr+=".button-on {background-color: #3498db;}\n";
+  ptr+=".button-on;active {background-color: #2980b9;}\n";
+  ptr+=".button-off {background-color: #34495e;}\n";
+  ptr+=".button-on;active {background-color: #2c3e50;}\n";
+  ptr+="p {font-size: 14px;color: #888;margin-bottom: 10px;}\n";
+  ptr+="</style>\n";
+  ptr+="<body>\n";
+  ptr+="<h1>ESP32 Web Server</h1>\n";
+  ptr+="<h3>Using Station(STA)mode</h3>";
+  
+}
+
+```
